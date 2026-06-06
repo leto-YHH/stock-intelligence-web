@@ -1,0 +1,41 @@
+{
+  "updatedAt": "2026-06-01",
+  "periods": {
+    "1m": [
+      {
+        "rank": 1, "ind": "金融", "score": 67.1,
+        "scores": { "capital": 100, "sentiment": 50, "rs": 47, "us": 38, "fund": 96 },
+        "stocks": [
+          { "name": "中信金", "code": "2891", "price": 32.5, "isLow": true, "winRate": "77%", "avgReturn": "+3.5%", "samples": 237, "tags": [{ "type": "tag-chip", "text": "籌碼" }, { "type": "tag-fund", "text": "基本面" }], "logic": "外資近 10 日買超 18,920 張，為金融股中買超最強。Fed 降息預期升溫，中信金存放款業務直接受惠。近 3 個月月營收 YoY 加速成長。" },
+          { "name": "玉山金", "code": "2884", "price": 28.1, "isLow": true, "winRate": "70%", "avgReturn": "+3.2%", "samples": 237, "tags": [{ "type": "tag-tech", "text": "技術面" }, { "type": "tag-fund", "text": "基本面" }], "logic": "股價突破 60 日均線並站穩，技術面轉多。數位金融業務持續成長，手續費收入佔比提升，營收結構改善中。" }
+        ]
+      },
+      {
+        "rank": 2, "ind": "科技硬體／AI 伺服器", "score": 57.6,
+        "scores": { "capital": 53, "sentiment": 94, "rs": 60, "us": 72, "fund": 0 },
+        "stocks": [
+          { "name": "宏碁", "code": "2353", "price": 54.2, "isLow": true, "winRate": "64%", "avgReturn": "+5.2%", "samples": 237, "tags": [{ "type": "tag-theme", "text": "題材" }, { "type": "tag-tech", "text": "技術面" }], "logic": "AI PC 換機潮題材持續，宏碁佈局 Copilot+ PC 產品線完整。股價在長期底部整理後出現量增突破，進場門檻低，波動空間較大。" },
+          { "name": "英業達", "code": "2356", "price": 85.5, "isLow": false, "winRate": "64%", "avgReturn": "+3.1%", "samples": 237, "tags": [{ "type": "tag-chip", "text": "籌碼" }, { "type": "tag-theme", "text": "題材" }], "logic": "AI 伺服器供應鏈直接受惠，COMPUTEX 期間獲多家國際廠商點名。外資近期持續買超，法人看好 GB200 伺服器組裝份額提升。" }
+        ]
+      },
+      {
+        "rank": 3, "ind": "半導體", "score": 55.2,
+        "scores": { "capital": 0, "sentiment": 94, "rs": 100, "us": 100, "fund": 37 },
+        "stocks": [
+          { "name": "聯電", "code": "2303", "price": 52.3, "isLow": true, "winRate": "63%", "avgReturn": "+4.8%", "samples": 237, "tags": [{ "type": "tag-tech", "text": "技術面" }, { "type": "tag-theme", "text": "題材" }], "logic": "費城半導體強勢帶動台灣半導體族群走揚。聯電股價長期低基期，本益比相對便宜，適合短線波段操作。目前站穩 20 日均線，技術面走勢健康。" },
+          { "name": "日月光投控", "code": "3711", "price": 128, "isLow": false, "winRate": "88%", "avgReturn": "+14.4%", "samples": 237, "tags": [{ "type": "tag-chip", "text": "籌碼" }, { "type": "tag-fund", "text": "基本面" }], "logic": "先進封裝需求持續攀升，CoWoS 產能吃緊。三大法人同步買超，外資長期持有比例高，基本面穩健。" }
+        ]
+      },
+      {
+        "rank": 4, "ind": "光學／被動元件", "score": 50.2,
+        "scores": { "capital": 14, "sentiment": 50, "rs": 96, "us": 72, "fund": 100 },
+        "stocks": [
+          { "name": "廣宇", "code": "2328", "price": 45.2, "isLow": true, "winRate": "60%", "avgReturn": "+4.2%", "samples": 237, "tags": [{ "type": "tag-tech", "text": "技術面" }, { "type": "tag-fund", "text": "基本面" }], "logic": "被動元件庫存去化完成，月營收 YoY 連續三個月加速成長。股價低基期，技術面呈現底部反轉型態。" },
+          { "name": "晶技", "code": "3006", "price": 68.5, "isLow": true, "winRate": "73%", "avgReturn": "+5.8%", "samples": 237, "tags": [{ "type": "tag-theme", "text": "題材" }, { "type": "tag-chip", "text": "籌碼" }], "logic": "5G 與 AI 穿戴裝置需求帶動石英元件出貨量增加。投信近期連續買超，籌碼面偏多。" }
+        ]
+      }
+    ],
+    "3m": [],
+    "1y": []
+  }
+}
