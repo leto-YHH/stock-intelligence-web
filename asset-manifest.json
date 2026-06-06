@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/stock-intelligence-web/static/css/main.2a6bbb59.css",
+    "main.js": "/stock-intelligence-web/static/js/main.e8768685.js",
+    "static/js/453.bb6498e0.chunk.js": "/stock-intelligence-web/static/js/453.bb6498e0.chunk.js",
+    "index.html": "/stock-intelligence-web/index.html",
+    "main.2a6bbb59.css.map": "/stock-intelligence-web/static/css/main.2a6bbb59.css.map",
+    "main.e8768685.js.map": "/stock-intelligence-web/static/js/main.e8768685.js.map",
+    "453.bb6498e0.chunk.js.map": "/stock-intelligence-web/static/js/453.bb6498e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a6bbb59.css",
+    "static/js/main.e8768685.js"
+  ]
+}
