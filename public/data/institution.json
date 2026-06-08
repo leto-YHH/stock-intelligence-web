@@ -1,0 +1,19 @@
+{
+  "updatedAt": "2026-06-04",
+  "buy": [
+    { "name": "台積電", "code": "2330", "ind": "半導體", "foreign": "+28,450", "trust": "+1,205", "dealer": "+3,812", "total": "+33,467" },
+    { "name": "日月光投控", "code": "3711", "ind": "半導體", "foreign": "+12,340", "trust": "+890", "dealer": "+2,105", "total": "+15,335" },
+    { "name": "中信金", "code": "2891", "ind": "金融", "foreign": "+18,920", "trust": "+2,340", "dealer": "+1,560", "total": "+22,820" },
+    { "name": "康舒", "code": "6282", "ind": "科技硬體", "foreign": "+13,077", "trust": "+234", "dealer": "+1,828", "total": "+15,139" },
+    { "name": "國巨", "code": "2327", "ind": "被動元件", "foreign": "+8,450", "trust": "+1,120", "dealer": "+980", "total": "+10,550" },
+    { "name": "廣宇", "code": "2328", "ind": "被動元件", "foreign": "+5,230", "trust": "+456", "dealer": "+612", "total": "+6,298" },
+    { "name": "聯電", "code": "2303", "ind": "半導體", "foreign": "+4,820", "trust": "+380", "dealer": "+540", "total": "+5,740" }
+  ],
+  "sell": [
+    { "name": "仁寶", "code": "2324", "ind": "科技硬體", "foreign": "−99,951", "trust": "−176", "dealer": "−3,634", "total": "−103,761" },
+    { "name": "英業達", "code": "2356", "ind": "科技硬體", "foreign": "−2,466", "trust": "−82", "dealer": "−2,381", "total": "−4,929" },
+    { "name": "友達", "code": "2409", "ind": "面板", "foreign": "−8,471", "trust": "−156", "dealer": "−2,105", "total": "−10,732" },
+    { "name": "長榮", "code": "2603", "ind": "航運", "foreign": "−5,230", "trust": "−890", "dealer": "−1,240", "total": "−7,360" },
+    { "name": "陽明", "code": "2609", "ind": "航運", "foreign": "−3,120", "trust": "−450", "dealer": "−890", "total": "−4,460" }
+  ]
+}
