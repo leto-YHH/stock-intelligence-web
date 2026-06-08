@@ -46,7 +46,7 @@ function Dashboard() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/stock-intelligence-web/data/dashboard.json')
+    fetch('https://raw.githubusercontent.com/leto-YHH/stock-intelligence-web/main/public/data/dashboard.json')
       .then(res => res.json())
       .then(json => {
         setData(json);
