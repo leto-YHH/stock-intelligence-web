@@ -5,10 +5,10 @@
       {
         "rank": 1,
         "ind": "金融",
-        "score": 79,
+        "score": 74,
         "scores": {
-          "capital": 100,
-          "sentiment": 86,
+          "capital": 79,
+          "sentiment": 85,
           "rs": 75,
           "us": 68,
           "fund": 65
@@ -39,9 +39,9 @@
       {
         "rank": 2,
         "ind": "化工原物料",
-        "score": 65,
+        "score": 66,
         "scores": {
-          "capital": 95,
+          "capital": 100,
           "sentiment": 50,
           "rs": 38,
           "us": 75,
@@ -83,9 +83,9 @@
       {
         "rank": 3,
         "ind": "光學/被動元件",
-        "score": 58,
+        "score": 59,
         "scores": {
-          "capital": 0,
+          "capital": 2,
           "sentiment": 50,
           "rs": 93,
           "us": 40,
@@ -127,9 +127,9 @@
       {
         "rank": 4,
         "ind": "航運",
-        "score": 54,
+        "score": 56,
         "scores": {
-          "capital": 42,
+          "capital": 49,
           "sentiment": 50,
           "rs": 38,
           "us": 100,
@@ -140,10 +140,10 @@
       {
         "rank": 5,
         "ind": "半導體",
-        "score": 48,
+        "score": 46,
         "scores": {
-          "capital": 16,
-          "sentiment": 68,
+          "capital": 0,
+          "sentiment": 77,
           "rs": 100,
           "us": 0,
           "fund": 32
@@ -186,10 +186,10 @@
       {
         "rank": 1,
         "ind": "金融",
-        "score": 79,
+        "score": 74,
         "scores": {
-          "capital": 100,
-          "sentiment": 86,
+          "capital": 79,
+          "sentiment": 85,
           "rs": 75,
           "us": 68,
           "fund": 65
@@ -214,15 +214,25 @@
             "samples": 194,
             "tags": [],
             "logic": "勝率 90%，平均報酬 +7.6%，穩定度 14%"
+          },
+          {
+            "code": "2881",
+            "name": "富邦金",
+            "price": 0,
+            "winRate": "76%",
+            "avgReturn": "+5.7%",
+            "samples": 194,
+            "tags": [],
+            "logic": "勝率 76%，平均報酬 +5.7%，穩定度 5%"
           }
         ]
       },
       {
         "rank": 2,
         "ind": "化工原物料",
-        "score": 65,
+        "score": 66,
         "scores": {
-          "capital": 95,
+          "capital": 100,
           "sentiment": 50,
           "rs": 38,
           "us": 75,
@@ -264,9 +274,9 @@
       {
         "rank": 3,
         "ind": "光學/被動元件",
-        "score": 58,
+        "score": 59,
         "scores": {
-          "capital": 0,
+          "capital": 2,
           "sentiment": 50,
           "rs": 93,
           "us": 40,
@@ -308,9 +318,9 @@
       {
         "rank": 4,
         "ind": "航運",
-        "score": 54,
+        "score": 56,
         "scores": {
-          "capital": 42,
+          "capital": 49,
           "sentiment": 50,
           "rs": 38,
           "us": 100,
@@ -332,10 +342,10 @@
       {
         "rank": 5,
         "ind": "半導體",
-        "score": 48,
+        "score": 46,
         "scores": {
-          "capital": 16,
-          "sentiment": 68,
+          "capital": 0,
+          "sentiment": 77,
           "rs": 100,
           "us": 0,
           "fund": 32
@@ -378,10 +388,10 @@
       {
         "rank": 1,
         "ind": "金融",
-        "score": 79,
+        "score": 74,
         "scores": {
-          "capital": 100,
-          "sentiment": 86,
+          "capital": 79,
+          "sentiment": 85,
           "rs": 75,
           "us": 68,
           "fund": 65
@@ -422,9 +432,9 @@
       {
         "rank": 2,
         "ind": "化工原物料",
-        "score": 65,
+        "score": 66,
         "scores": {
-          "capital": 95,
+          "capital": 100,
           "sentiment": 50,
           "rs": 38,
           "us": 75,
@@ -466,9 +476,9 @@
       {
         "rank": 3,
         "ind": "光學/被動元件",
-        "score": 58,
+        "score": 59,
         "scores": {
-          "capital": 0,
+          "capital": 2,
           "sentiment": 50,
           "rs": 93,
           "us": 40,
@@ -510,9 +520,9 @@
       {
         "rank": 4,
         "ind": "航運",
-        "score": 54,
+        "score": 56,
         "scores": {
-          "capital": 42,
+          "capital": 49,
           "sentiment": 50,
           "rs": 38,
           "us": 100,
@@ -534,10 +544,10 @@
       {
         "rank": 5,
         "ind": "半導體",
-        "score": 48,
+        "score": 46,
         "scores": {
-          "capital": 16,
-          "sentiment": 68,
+          "capital": 0,
+          "sentiment": 77,
           "rs": 100,
           "us": 0,
           "fund": 32
