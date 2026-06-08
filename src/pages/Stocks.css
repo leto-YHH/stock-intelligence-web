@@ -1,0 +1,50 @@
+.stocks {}
+
+.stocks-hero { padding: 1.5rem 1.5rem 1.25rem; border-bottom: 0.5px solid #e5e5e5; }
+.date { font-size: 12px; color: #555; font-family: 'DM Mono', monospace; margin-bottom: 4px; }
+.stocks-title { font-size: 22px; font-weight: 500; margin-bottom: 0.25rem; }
+.stocks-sub { font-size: 13px; color: #555; }
+
+.period-tabs { display: flex; border-bottom: 0.5px solid #e5e5e5; padding: 0 1.5rem; }
+.ptab { font-size: 14px; padding: 0.75rem 1.25rem; cursor: pointer; border-bottom: 2px solid transparent; color: #555; background: none; border-top: none; border-left: none; border-right: none; }
+.ptab.active { color: #1a1a1a; font-weight: 500; border-bottom: 2px solid #1a1a1a; }
+
+.ind-sec { padding: 1.25rem 1.5rem; border-bottom: 0.5px solid #e5e5e5; }
+.ind-sec:last-child { border-bottom: none; }
+.ind-header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; }
+.ind-rank { font-size: 13px; color: #555; font-family: 'DM Mono', monospace; }
+.ind-name { font-size: 17px; font-weight: 500; }
+.ind-score-wrap { flex: 1; max-width: 120px; }
+.ind-score-bar { height: 3px; background: #e5e5e5; border-radius: 2px; overflow: hidden; }
+.ind-score-fill { height: 100%; background: #1a1a1a; border-radius: 2px; }
+.ind-score-num { font-size: 13px; font-family: 'DM Mono', monospace; color: #555; }
+
+.ind-scores { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.4rem; margin-bottom: 1rem; }
+.score-chip { background: #f5f5f5; border-radius: 6px; padding: 0.4rem 0.6rem; text-align: center; }
+.score-chip-lbl { font-size: 11px; color: #555; display: block; margin-bottom: 2px; }
+.score-chip-val { font-size: 14px; font-weight: 500; font-family: 'DM Mono', monospace; }
+.score-high { color: #e03c3c; }
+.score-low { color: #16a34a; }
+
+.stock-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 0.75rem; }
+.stock-card { border: 0.5px solid #e5e5e5; border-radius: 10px; padding: 1rem 1.125rem; }
+.card-top { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 0.75rem; }
+.card-name { font-size: 15px; font-weight: 500; }
+.card-code { font-size: 12px; color: #555; font-family: 'DM Mono', monospace; margin-top: 2px; }
+.price-low-badge { font-size: 11px; padding: 2px 7px; border-radius: 4px; background: #FDECEA; color: #e03c3c; margin-top: 4px; display: inline-block; }
+.card-price-val { font-size: 16px; font-weight: 500; font-family: 'DM Mono', monospace; text-align: right; }
+.card-price-lbl { font-size: 11px; color: #555; text-align: right; margin-top: 1px; }
+
+.card-backtest { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.4rem; margin-bottom: 0.75rem; }
+.bt-item { background: #f7f7f7; border-radius: 6px; padding: 0.4rem 0.5rem; text-align: center; }
+.bt-lbl { font-size: 11px; color: #555; display: block; margin-bottom: 2px; }
+.bt-val { font-size: 13px; font-weight: 500; font-family: 'DM Mono', monospace; }
+.bt-good { color: #e03c3c; }
+
+.card-logic-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-bottom: 0.5rem; }
+.logic-tag { font-size: 11px; padding: 2px 8px; border-radius: 4px; font-weight: 500; }
+.tag-tech { background: #EEF2FF; color: #3730A3; }
+.tag-chip { background: #FDECEA; color: #991B1B; }
+.tag-fund { background: #EAF3DE; color: #3B6D11; }
+.tag-theme { background: #FAEEDA; color: #854F0B; }
+.card-logic { font-size: 13px; color: #1a1a1a; line-height: 1.65; }
