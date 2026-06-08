@@ -5,13 +5,13 @@
       {
         "rank": 1,
         "ind": "半導體",
-        "score": 71,
+        "score": 69,
         "scores": {
           "capital": 0,
           "sentiment": 89,
           "rs": 100,
           "us": 100,
-          "fund": 50
+          "fund": 38
         },
         "stocks": [
           {
@@ -49,13 +49,13 @@
       {
         "rank": 2,
         "ind": "光學/被動元件",
-        "score": 58,
+        "score": 65,
         "scores": {
-          "capital": 0,
+          "capital": 1,
           "sentiment": 96,
           "rs": 89,
-          "us": 47,
-          "fund": 50
+          "us": 44,
+          "fund": 100
         },
         "stocks": [
           {
@@ -92,27 +92,14 @@
       },
       {
         "rank": 3,
-        "ind": "航運",
-        "score": 52,
-        "scores": {
-          "capital": 100,
-          "sentiment": 86,
-          "rs": 38,
-          "us": 0,
-          "fund": 50
-        },
-        "stocks": []
-      },
-      {
-        "rank": 4,
         "ind": "金融",
-        "score": 40,
+        "score": 62,
         "scores": {
-          "capital": 0,
+          "capital": 89,
           "sentiment": 50,
           "rs": 70,
           "us": 22,
-          "fund": 50
+          "fund": 72
         },
         "stocks": [
           {
@@ -138,51 +125,74 @@
         ]
       },
       {
-        "rank": 5,
-        "ind": "科技硬體/AI伺服器",
-        "score": 40,
+        "rank": 4,
+        "ind": "化工原物料",
+        "score": 60,
         "scores": {
-          "capital": 0,
-          "sentiment": 50,
-          "rs": 52,
-          "us": 47,
-          "fund": 50
+          "capital": 100,
+          "sentiment": 91,
+          "rs": 46,
+          "us": 6,
+          "fund": 77
         },
         "stocks": [
           {
-            "code": "6669",
-            "name": "緯穎",
-            "price": 5660.0,
-            "winRate": "73%",
-            "avgReturn": "+9.1%",
+            "code": "1303",
+            "name": "南亞",
+            "price": 104.5,
+            "winRate": "74%",
+            "avgReturn": "+12.8%",
             "samples": 237,
             "tags": [],
-            "logic": "勝率 73%，平均報酬 +9.1%，穩定度 0%"
+            "logic": "勝率 74%，平均報酬 +12.8%，穩定度 0%"
           },
           {
-            "code": "2356",
-            "name": "英業達",
-            "price": 76.8,
-            "winRate": "64%",
-            "avgReturn": "+4.5%",
+            "code": "1326",
+            "name": "台化",
+            "price": 52.8,
+            "winRate": "68%",
+            "avgReturn": "+7.3%",
             "samples": 237,
             "tags": [],
-            "logic": "勝率 64%，平均報酬 +4.5%，穩定度 0%"
+            "logic": "勝率 68%，平均報酬 +7.3%，穩定度 0%"
+          },
+          {
+            "code": "1304",
+            "name": "台聚",
+            "price": 13.4,
+            "winRate": "61%",
+            "avgReturn": "+3.3%",
+            "samples": 237,
+            "tags": [],
+            "logic": "勝率 61%，平均報酬 +3.3%，穩定度 0%"
           }
         ]
+      },
+      {
+        "rank": 5,
+        "ind": "航運",
+        "score": 42,
+        "scores": {
+          "capital": 47,
+          "sentiment": 83,
+          "rs": 38,
+          "us": 0,
+          "fund": 55
+        },
+        "stocks": []
       }
     ],
     "3m": [
       {
         "rank": 1,
         "ind": "半導體",
-        "score": 71,
+        "score": 69,
         "scores": {
           "capital": 0,
           "sentiment": 89,
           "rs": 100,
           "us": 100,
-          "fund": 50
+          "fund": 38
         },
         "stocks": [
           {
@@ -220,13 +230,13 @@
       {
         "rank": 2,
         "ind": "光學/被動元件",
-        "score": 58,
+        "score": 65,
         "scores": {
-          "capital": 0,
+          "capital": 1,
           "sentiment": 96,
           "rs": 89,
-          "us": 47,
-          "fund": 50
+          "us": 44,
+          "fund": 100
         },
         "stocks": [
           {
@@ -263,38 +273,14 @@
       },
       {
         "rank": 3,
-        "ind": "航運",
-        "score": 52,
-        "scores": {
-          "capital": 100,
-          "sentiment": 86,
-          "rs": 38,
-          "us": 0,
-          "fund": 50
-        },
-        "stocks": [
-          {
-            "code": "2637",
-            "name": "慧洋-KY",
-            "price": 80.6,
-            "winRate": "90%",
-            "avgReturn": "+7.7%",
-            "samples": 193,
-            "tags": [],
-            "logic": "勝率 90%，平均報酬 +7.7%，穩定度 21%"
-          }
-        ]
-      },
-      {
-        "rank": 4,
         "ind": "金融",
-        "score": 40,
+        "score": 62,
         "scores": {
-          "capital": 0,
+          "capital": 89,
           "sentiment": 50,
           "rs": 70,
           "us": 22,
-          "fund": 50
+          "fund": 72
         },
         "stocks": [
           {
@@ -330,46 +316,70 @@
         ]
       },
       {
-        "rank": 5,
-        "ind": "科技硬體/AI伺服器",
-        "score": 40,
+        "rank": 4,
+        "ind": "化工原物料",
+        "score": 60,
         "scores": {
-          "capital": 0,
-          "sentiment": 50,
-          "rs": 52,
-          "us": 47,
-          "fund": 50
+          "capital": 100,
+          "sentiment": 91,
+          "rs": 46,
+          "us": 6,
+          "fund": 77
         },
         "stocks": [
           {
-            "code": "6669",
-            "name": "緯穎",
-            "price": 5660.0,
-            "winRate": "70%",
-            "avgReturn": "+23.7%",
+            "code": "1303",
+            "name": "南亞",
+            "price": 104.5,
+            "winRate": "100%",
+            "avgReturn": "+44.2%",
             "samples": 193,
             "tags": [],
-            "logic": "勝率 70%，平均報酬 +23.7%，穩定度 13%"
+            "logic": "勝率 100%，平均報酬 +44.2%，穩定度 54%"
           },
           {
-            "code": "2356",
-            "name": "英業達",
-            "price": 76.8,
-            "winRate": "68%",
-            "avgReturn": "+6.5%",
+            "code": "1326",
+            "name": "台化",
+            "price": 52.8,
+            "winRate": "99%",
+            "avgReturn": "+25.9%",
             "samples": 193,
             "tags": [],
-            "logic": "勝率 68%，平均報酬 +6.5%，穩定度 0%"
+            "logic": "勝率 99%，平均報酬 +25.9%，穩定度 40%"
           },
           {
-            "code": "2382",
-            "name": "廣達",
-            "price": 390.5,
-            "winRate": "66%",
-            "avgReturn": "+5.5%",
+            "code": "6505",
+            "name": "台塑石化",
+            "price": 55.3,
+            "winRate": "94%",
+            "avgReturn": "+13.5%",
             "samples": 193,
             "tags": [],
-            "logic": "勝率 66%，平均報酬 +5.5%，穩定度 0%"
+            "logic": "勝率 94%，平均報酬 +13.5%，穩定度 32%"
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "ind": "航運",
+        "score": 42,
+        "scores": {
+          "capital": 47,
+          "sentiment": 83,
+          "rs": 38,
+          "us": 0,
+          "fund": 55
+        },
+        "stocks": [
+          {
+            "code": "2637",
+            "name": "慧洋-KY",
+            "price": 80.6,
+            "winRate": "90%",
+            "avgReturn": "+7.7%",
+            "samples": 193,
+            "tags": [],
+            "logic": "勝率 90%，平均報酬 +7.7%，穩定度 21%"
           }
         ]
       }
@@ -378,65 +388,65 @@
       {
         "rank": 1,
         "ind": "半導體",
-        "score": 71,
+        "score": 69,
         "scores": {
           "capital": 0,
           "sentiment": 89,
           "rs": 100,
           "us": 100,
-          "fund": 50
+          "fund": 38
         },
         "stocks": []
       },
       {
         "rank": 2,
         "ind": "光學/被動元件",
-        "score": 58,
+        "score": 65,
         "scores": {
-          "capital": 0,
+          "capital": 1,
           "sentiment": 96,
           "rs": 89,
-          "us": 47,
-          "fund": 50
+          "us": 44,
+          "fund": 100
         },
         "stocks": []
       },
       {
         "rank": 3,
-        "ind": "航運",
-        "score": 52,
+        "ind": "金融",
+        "score": 62,
         "scores": {
-          "capital": 100,
-          "sentiment": 86,
-          "rs": 38,
-          "us": 0,
-          "fund": 50
+          "capital": 89,
+          "sentiment": 50,
+          "rs": 70,
+          "us": 22,
+          "fund": 72
         },
         "stocks": []
       },
       {
         "rank": 4,
-        "ind": "金融",
-        "score": 40,
+        "ind": "化工原物料",
+        "score": 60,
         "scores": {
-          "capital": 0,
-          "sentiment": 50,
-          "rs": 70,
-          "us": 22,
-          "fund": 50
+          "capital": 100,
+          "sentiment": 91,
+          "rs": 46,
+          "us": 6,
+          "fund": 77
         },
         "stocks": []
       },
       {
         "rank": 5,
-        "ind": "科技硬體/AI伺服器",
-        "score": 40,
+        "ind": "航運",
+        "score": 42,
         "scores": {
-          "capital": 0,
-          "sentiment": 50,
-          "rs": 52,
-          "us": 47,
-          "fund": 50
+          "capital": 47,
+          "sentiment": 83,
+          "rs": 38,
+          "us": 0,
+          "fund": 55
         },
         "stocks": []
       }
