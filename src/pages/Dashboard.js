@@ -70,11 +70,32 @@ function Dashboard() {
                   <div className="sname">{s.name}</div>
                   <div className="scode">{s.code} · {s.shares} · 成本 {s.cost}</div>
                 </div>
+                {s.inst && (
+                  <div className="inst">
+                    <div className="inst-chip"><span className="inst-lbl">外資</span><span className={s.instDir?.foreign}>{s.inst.foreign}</span></div>
+                    <div className="inst-chip"><span className="inst-lbl">投信</span><span className={s.instDir?.trust}>{s.inst.trust}</span></div>
+                    <div className="inst-chip"><span className="inst-lbl">自營商</span><span className={s.instDir?.dealer}>{s.inst.dealer}</span></div>
+                    <div className="inst-chip"><span className="inst-lbl">合計</span><span className={s.instDir?.total}>{s.inst.total}</span></div>
+                  </div>
+                )}
                 <div className="port-right">
                   <div className={`price ${s.priceDir}`}>{s.price}</div>
                   <div className={`pnl ${s.priceDir}`}>{s.pnl} {s.pnlPct}</div>
+                  {s.signal && (
+                    <span className={`signal signal-${s.signal}`}>{s.signalText}</span>
+                  )}
                 </div>
               </div>
+              {s.tags && s.tags.length > 0 && (
+                <div className="logic-tags">
+                  {s.tags.map(t => (
+                    <span key={t.text} className={`logic-tag ${t.type}`}>{t.text}</span>
+                  ))}
+                </div>
+              )}
+              {s.reason && (
+                <div className="reason">{s.reason}</div>
+              )}
             </div>
           ))
         )}
