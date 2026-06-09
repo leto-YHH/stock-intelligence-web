@@ -5,13 +5,13 @@
       {
         "rank": 1,
         "ind": "金融",
-        "score": 69,
+        "score": 68,
         "scores": {
           "capital": 100,
           "sentiment": 54,
           "rs": 60,
-          "us": 91,
-          "fund": 28
+          "us": 92,
+          "fund": 26
         },
         "stocks": [
           {
@@ -54,8 +54,8 @@
           "capital": 4,
           "sentiment": 54,
           "rs": 93,
-          "us": 44,
-          "fund": 27
+          "us": 45,
+          "fund": 25
         },
         "stocks": [
           {
@@ -99,7 +99,7 @@
           "sentiment": 50,
           "rs": 27,
           "us": 95,
-          "fund": 41
+          "fund": 36
         },
         "stocks": [
           {
@@ -136,27 +136,27 @@
       },
       {
         "rank": 4,
-        "ind": "航運",
-        "score": 46,
+        "ind": "生技醫療",
+        "score": 45,
         "scores": {
-          "capital": 21,
+          "capital": 9,
           "sentiment": 54,
-          "rs": 32,
+          "rs": 0,
           "us": 100,
-          "fund": 29
+          "fund": 100
         },
         "stocks": []
       },
       {
         "rank": 5,
-        "ind": "生技醫療",
+        "ind": "航運",
         "score": 44,
         "scores": {
-          "capital": 9,
-          "sentiment": 54,
-          "rs": 0,
-          "us": 92,
-          "fund": 100
+          "capital": 21,
+          "sentiment": 50,
+          "rs": 32,
+          "us": 95,
+          "fund": 28
         },
         "stocks": []
       }
@@ -165,13 +165,13 @@
       {
         "rank": 1,
         "ind": "金融",
-        "score": 69,
+        "score": 68,
         "scores": {
           "capital": 100,
           "sentiment": 54,
           "rs": 60,
-          "us": 91,
-          "fund": 28
+          "us": 92,
+          "fund": 26
         },
         "stocks": [
           {
@@ -214,8 +214,8 @@
           "capital": 4,
           "sentiment": 54,
           "rs": 93,
-          "us": 44,
-          "fund": 27
+          "us": 45,
+          "fund": 25
         },
         "stocks": [
           {
@@ -259,7 +259,7 @@
           "sentiment": 50,
           "rs": 27,
           "us": 95,
-          "fund": 41
+          "fund": 36
         },
         "stocks": [
           {
@@ -296,14 +296,38 @@
       },
       {
         "rank": 4,
+        "ind": "生技醫療",
+        "score": 45,
+        "scores": {
+          "capital": 9,
+          "sentiment": 54,
+          "rs": 0,
+          "us": 100,
+          "fund": 100
+        },
+        "stocks": [
+          {
+            "code": "1789",
+            "name": "神隆",
+            "price": 20.25,
+            "winRate": "63%",
+            "avgReturn": "+8.1%",
+            "samples": 193,
+            "tags": [],
+            "logic": "勝率 63%，平均報酬 +8.1%，穩定度 0%"
+          }
+        ]
+      },
+      {
+        "rank": 5,
         "ind": "航運",
-        "score": 46,
+        "score": 44,
         "scores": {
           "capital": 21,
-          "sentiment": 54,
+          "sentiment": 50,
           "rs": 32,
-          "us": 100,
-          "fund": 29
+          "us": 95,
+          "fund": 28
         },
         "stocks": [
           {
@@ -327,43 +351,19 @@
             "logic": "勝率 62%，平均報酬 +3.5%，穩定度 0%"
           }
         ]
-      },
-      {
-        "rank": 5,
-        "ind": "生技醫療",
-        "score": 44,
-        "scores": {
-          "capital": 9,
-          "sentiment": 54,
-          "rs": 0,
-          "us": 92,
-          "fund": 100
-        },
-        "stocks": [
-          {
-            "code": "1789",
-            "name": "神隆",
-            "price": 20.25,
-            "winRate": "63%",
-            "avgReturn": "+8.1%",
-            "samples": 193,
-            "tags": [],
-            "logic": "勝率 63%，平均報酬 +8.1%，穩定度 0%"
-          }
-        ]
       }
     ],
     "1y": [
       {
         "rank": 1,
         "ind": "金融",
-        "score": 69,
+        "score": 68,
         "scores": {
           "capital": 100,
           "sentiment": 54,
           "rs": 60,
-          "us": 91,
-          "fund": 28
+          "us": 92,
+          "fund": 26
         },
         "stocks": []
       },
@@ -375,8 +375,8 @@
           "capital": 4,
           "sentiment": 54,
           "rs": 93,
-          "us": 44,
-          "fund": 27
+          "us": 45,
+          "fund": 25
         },
         "stocks": []
       },
@@ -389,33 +389,33 @@
           "sentiment": 50,
           "rs": 27,
           "us": 95,
-          "fund": 41
+          "fund": 36
         },
         "stocks": []
       },
       {
         "rank": 4,
-        "ind": "航運",
-        "score": 46,
+        "ind": "生技醫療",
+        "score": 45,
         "scores": {
-          "capital": 21,
+          "capital": 9,
           "sentiment": 54,
-          "rs": 32,
+          "rs": 0,
           "us": 100,
-          "fund": 29
+          "fund": 100
         },
         "stocks": []
       },
       {
         "rank": 5,
-        "ind": "生技醫療",
+        "ind": "航運",
         "score": 44,
         "scores": {
-          "capital": 9,
-          "sentiment": 54,
-          "rs": 0,
-          "us": 92,
-          "fund": 100
+          "capital": 21,
+          "sentiment": 50,
+          "rs": 32,
+          "us": 95,
+          "fund": 28
         },
         "stocks": []
       }
