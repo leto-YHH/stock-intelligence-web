@@ -7,7 +7,7 @@ function Institution() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/stock-intelligence-web/data/institution.json')
+    fetch('https://raw.githubusercontent.com/leto-YHH/stock-intelligence-web/main/public/data/institution.json')
       .then(res => res.json())
       .then(json => {
         setAllData(json);
