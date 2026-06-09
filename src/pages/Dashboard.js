@@ -122,35 +122,6 @@ function Dashboard() {
           </div>
         ))}
       </div>
-
-      {/* 本週選股 */}
-      <div className="sec">
-        <div className="sec-hd">
-          <div className="sec-title">本週選股推薦 · 1個月</div>
-          <Link to="/stocks" className="sec-more">完整報告 →</Link>
-        </div>
-        {(data.weeklyStocks || []).map(w => (
-          <div className="sel-row" key={w.rank}>
-            <div className="sel-rank">{w.rank}</div>
-            <div className="sel-body">
-              <div className="sel-ind">{w.ind}</div>
-              <div className="sel-stocks">
-                {w.stocks.map(s => (
-                  <span key={s.name} className={s.hi ? 'chip-hi' : 'chip'}>
-                    {s.name}<span className="chip-price">{s.price}</span>
-                  </span>
-                ))}
-              </div>
-            </div>
-            <div className="sel-right">
-              <div className="sel-score">{w.score}</div>
-              <div className="score-bar"><div className="score-fill" style={{ width: `${w.score}%` }}></div></div>
-            </div>
-          </div>
-        ))}
-        <div className="legend"><span className="legend-dot"></span>綠底標示為中低價位推薦（股價 $100 以下）</div>
-      </div>
-
       {/* 今日新聞 */}
       <div className="sec">
         <div className="sec-hd"><div className="sec-title">今日財經新聞</div></div>
@@ -178,11 +149,11 @@ function Dashboard() {
         </table>
       </div>
 
-      {/* 本日摘要 */}
+      {/* 本日重點 */}
       <div className="sec">
-        <div className="sec-hd"><div className="sec-title">本日摘要</div></div>
+        <div className="sec-hd"><div className="sec-title">本日重點</div></div>
         <div className="daily-summary">
-          <div className="ds-title">今日操作重點</div>
+          <div className="ds-title">今日市場深度分析</div>
           <div className="ds-body">{dailySummary}</div>
         </div>
       </div>
