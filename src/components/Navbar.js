@@ -8,7 +8,7 @@ function Navbar() {
   const links = [
     { path: '/', label: '今日市場' },
     { path: '/portfolio', label: '持股管理' },
-    { path: '/stocks', label: '每週選股' },
+    { path: '/stocks', label: '每日選股' },
     { path: '/institution', label: '法人共識' },
   ];
 

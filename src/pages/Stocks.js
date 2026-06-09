@@ -32,8 +32,8 @@ function Stocks() {
 
       <div className="stocks-hero">
         <div className="date">{allData.updatedAt?.replace(/-/g, ' · ')} 更新</div>
-        <div className="stocks-title">每週選股推薦</div>
-        <div className="stocks-sub">五維度評分選出產業，再從產業內篩選通過回測門檻的個股</div>
+        <div className="stocks-title">每日選股推薦</div>
+        <div className="stocks-sub">五維度評分選出產業，再從產業內篩選通過回測門檻的個股，每日平日更新</div>
       </div>
 
       <div className="period-tabs">
