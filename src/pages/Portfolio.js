@@ -9,9 +9,9 @@ const supabase = createClient(
 
 const ADMIN_PASSWORD = process.env.REACT_APP_ADMIN_PASSWORD;
 
-// ── 元件 ─────────────────────────────────────────────────
 function Portfolio() {
   const [stocks, setStocks] = useState([]);
+  const [dashData, setDashData] = useState({});
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const [isAdmin, setIsAdmin] = useState(false);
@@ -21,24 +21,41 @@ function Portfolio() {
   const [showAddModal, setShowAddModal] = useState(false);
   const [form, setForm] = useState({ name: '', code: '', shares: '', cost: '', entryDate: '' });
 
-  // 從 Supabase 讀取
   const fetchPortfolio = async () => {
     const { data, error } = await supabase
       .from('portfolio')
       .select('*')
       .order('id', { ascending: true });
     if (!error) setStocks(data || []);
-    setLoading(false);
   };
 
   useEffect(() => {
-    fetchPortfolio();
+    const init = async () => {
+      await fetchPortfolio();
+      // 從 dashboard.json 抓即時損益資料
+      try {
+        const res = await fetch('https://raw.githubusercontent.com/leto-YHH/stock-intelligence-web/main/public/data/dashboard.json');
+        const json = await res.json();
+        const map = {};
+        (json.portfolio || []).forEach(p => { map[p.code] = p; });
+        setDashData(map);
+      } catch (e) {
+        console.error('讀取 dashboard 失敗:', e);
+      }
+      setLoading(false);
+    };
+    init();
   }, []);
 
-  // 計算總覽
   const totalInvested = stocks.reduce((sum, s) => sum + s.cost * s.shares * 1000, 0);
 
-  // 密碼驗證
+  // 計算總損益
+  const totalPnl = stocks.reduce((sum, s) => {
+    const d = dashData[s.code];
+    if (!d || !d.price) return sum;
+    return sum + (d.price - s.cost) * s.shares * 1000;
+  }, 0);
+
   const handlePasswordSubmit = () => {
     if (passwordInput === ADMIN_PASSWORD) {
       setIsAdmin(true);
@@ -50,7 +67,6 @@ function Portfolio() {
     }
   };
 
-  // 新增持股
   const handleAdd = async () => {
     if (!form.name || !form.code || !form.shares || !form.cost) return;
     setSaving(true);
@@ -62,9 +78,7 @@ function Portfolio() {
       entry_date: form.entryDate ? form.entryDate : null,
     }]);
     if (error) {
-      console.log('Supabase error:', JSON.stringify(error));
       alert('儲存失敗，請稍後再試');
-
     } else {
       await fetchPortfolio();
       setShowAddModal(false);
@@ -73,7 +87,6 @@ function Portfolio() {
     setSaving(false);
   };
 
-  // 刪除持股
   const handleDelete = async (id) => {
     if (!window.confirm('確定要刪除這筆持股嗎？')) return;
     setSaving(true);
@@ -94,7 +107,7 @@ function Portfolio() {
       {/* 頁首 */}
       <div className="port-hero">
         <div className="port-hero-left">
-          <div className="date">持股追蹤 · 即時損益</div>
+          <div className="date">持股追蹤 · 每日更新</div>
           <div className="port-hero-title">持股管理</div>
           <div className="port-hero-sub">追蹤持股損益、法人動向與 AI 買賣建議</div>
         </div>
@@ -123,9 +136,13 @@ function Portfolio() {
           <div className="sum-sub">元</div>
         </div>
         <div className="sum-card">
-          <div className="sum-label">管理狀態</div>
-          <div className="sum-val" style={{ fontSize: '16px' }}>{isAdmin ? '🔓 管理中' : '🔒 唯讀'}</div>
-          <div className="sum-sub">{isAdmin ? '可新增/刪除' : '點管理模式編輯'}</div>
+          <div className="sum-label">總損益</div>
+          <div className="sum-val" style={{ color: totalPnl >= 0 ? '#e03c3c' : '#16a34a' }}>
+            {totalPnl >= 0 ? '+' : ''}{Math.round(totalPnl).toLocaleString()}
+          </div>
+          <div className="sum-sub" style={{ color: totalPnl >= 0 ? '#e03c3c' : '#16a34a' }}>
+            {totalInvested > 0 ? `${totalPnl >= 0 ? '▲' : '▼'}${Math.abs(totalPnl / totalInvested * 100).toFixed(1)}%` : ''}
+          </div>
         </div>
       </div>
 
@@ -136,25 +153,56 @@ function Portfolio() {
         {stocks.length === 0 ? (
           <div style={{ padding: '1rem', color: '#555', fontSize: '14px' }}>尚無持股，進入管理模式後可新增。</div>
         ) : (
-          stocks.map(s => (
-            <div className="port-card" key={s.id}>
-              <div className="card-header">
-                <div className="card-info">
-                  <div>
-                    <div className="stock-name">{s.name}</div>
-                    <div className="stock-meta">{s.code} · {s.shares}張 · 入場 {s.entry_date}</div>
+          stocks.map(s => {
+            const d = dashData[s.code];
+            const price = d?.price || 0;
+            const pnl = price ? Math.round((price - s.cost) * s.shares * 1000) : null;
+            const pnlPct = price && s.cost ? ((price - s.cost) / s.cost * 100).toFixed(1) : null;
+            const priceDir = price >= s.cost ? 'up' : 'down';
+
+            return (
+              <div className="port-card" key={s.id}>
+                <div className="card-header">
+                  <div className="card-info">
+                    <div>
+                      <div className="stock-name">{s.name}</div>
+                      <div className="stock-meta">{s.code} · {s.shares}張 · 入場 {s.entry_date}</div>
+                    </div>
                   </div>
+                  {price > 0 && (
+                    <div className="card-pnl">
+                      <div className={`price-now ${priceDir}`}>{price}</div>
+                      <div className={`pnl-val ${priceDir}`}>
+                        {pnl >= 0 ? '+' : ''}{pnl?.toLocaleString()} {pnl_pct_str(pnlPct, priceDir)}
+                      </div>
+                    </div>
+                  )}
+                  {isAdmin && (
+                    <div className="card-actions">
+                      <button className="btn-del" onClick={() => handleDelete(s.id)}>刪除</button>
+                    </div>
+                  )}
                 </div>
-                <div></div>
-                {isAdmin && (
-                  <div className="card-actions">
-                    <button className="btn-del" onClick={() => handleDelete(s.id)}>刪除</button>
+
+                {/* 法人買賣超 */}
+                {d?.inst && (
+                  <div className="inst-row">
+                    <div className="inst-chip"><span className="inst-lbl">外資</span><span className={d.instDir?.foreign}>{d.inst.foreign}</span></div>
+                    <div className="inst-chip"><span className="inst-lbl">投信</span><span className={d.instDir?.trust}>{d.inst.trust}</span></div>
+                    <div className="inst-chip"><span className="inst-lbl">自營商</span><span className={d.instDir?.dealer}>{d.inst.dealer}</span></div>
+                    <div className="inst-chip"><span className="inst-lbl">合計</span><span className={d.instDir?.total}>{d.inst.total}</span></div>
                   </div>
                 )}
-              </div>
-              <div className="card-body">
-                <div className="card-col">
-                  <div className="col-title">基本資料</div>
+
+                {/* AI 分析 */}
+                {d?.tags && d.tags.length > 0 && (
+                  <div className="logic-tags">
+                    {d.tags.map(t => <span key={t.text} className={`logic-tag ${t.type}`}>{t.text}</span>)}
+                  </div>
+                )}
+                {d?.reason && <div className="reason">{d.reason}</div>}
+
+                <div className="card-body">
                   <div className="price-grid">
                     <div className="price-item"><span className="price-lbl">成本</span><span className="price-val">{s.cost}</span></div>
                     <div className="price-item"><span className="price-lbl">張數</span><span className="price-val">{s.shares}</span></div>
@@ -162,8 +210,8 @@ function Portfolio() {
                   </div>
                 </div>
               </div>
-            </div>
-          ))
+            );
+          })
         )}
       </div>
 
@@ -229,6 +277,12 @@ function Portfolio() {
 
     </div>
   );
+}
+
+// 輔助函數
+function pnl_pct_str(pct, dir) {
+  if (pct === null) return '';
+  return dir === 'up' ? `▲${Math.abs(pct)}%` : `▼${Math.abs(pct)}%`;
 }
 
 export default Portfolio;
