@@ -70,3 +70,16 @@
 .modal-actions { display: flex; gap: 0.5rem; justify-content: flex-end; margin-top: 1.25rem; }
 .btn-cancel { padding: 0.5rem 1rem; border-radius: 8px; border: 0.5px solid #e5e5e5; background: #fff; font-size: 14px; cursor: pointer; }
 .btn-save { padding: 0.5rem 1rem; border-radius: 8px; border: none; background: #1a1a1a; color: #fff; font-size: 14px; font-weight: 500; cursor: pointer; }
+.inst-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.35rem; padding: 0.75rem 1.125rem; border-bottom: 0.5px solid #f0f0f0; }
+.inst-row .inst-chip { background: #f7f7f7; border-radius: 6px; padding: 0.4rem 0.5rem; text-align: center; }
+.inst-row .inst-lbl { font-size: 11px; color: #555; display: block; margin-bottom: 2px; font-weight: 500; }
+
+.card-pnl { text-align: right; }
+.price-now { font-size: 18px; font-weight: 500; font-family: 'DM Mono', monospace; }
+.pnl-val { font-size: 13px; font-family: 'DM Mono', monospace; margin-top: 2px; }
+
+.logic-tags { padding: 0.5rem 1.125rem 0; }
+.reason { font-size: 13px; color: #1a1a1a; line-height: 1.65; padding: 0.5rem 1.125rem 0.75rem; }
+
+.up { color: #e03c3c; }
+.down { color: #16a34a; }
