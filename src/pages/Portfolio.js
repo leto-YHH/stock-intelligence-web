@@ -186,7 +186,7 @@ function Portfolio() {
 
                 {/* 法人買賣超 */}
                 {d?.inst && (
-                  <div className="inst-row">
+                  <div style={{display:'grid', gridTemplateColumns:'repeat(4,1fr)', gap:'0.35rem', padding:'0.75rem 1.125rem', borderBottom:'0.5px solid #f0f0f0'}}>
                     <div className="inst-chip"><span className="inst-lbl">外資</span><span className={d.instDir?.foreign}>{d.inst.foreign}</span></div>
                     <div className="inst-chip"><span className="inst-lbl">投信</span><span className={d.instDir?.trust}>{d.inst.trust}</span></div>
                     <div className="inst-chip"><span className="inst-lbl">自營商</span><span className={d.instDir?.dealer}>{d.inst.dealer}</span></div>
