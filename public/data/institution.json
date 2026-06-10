@@ -1,72 +1,50 @@
 {
-  "updatedAt": "2026-06-09",
+  "updatedAt": "2026-06-10",
   "buy": [],
   "sell": [
     {
-      "code": "2409",
-      "name": "友達",
-      "ind": "面板",
-      "foreign": "−80,413",
-      "trust": "−4",
-      "dealer": "−7,868",
-      "total": "−88,285",
-      "foreignRaw": -80413,
-      "totalRaw": -88285
-    },
-    {
-      "code": "2356",
-      "name": "英業達",
-      "ind": "科技硬體",
-      "foreign": "−11,118",
-      "trust": "−76",
-      "dealer": "−165",
-      "total": "−11,359",
-      "foreignRaw": -11118,
-      "totalRaw": -11359
-    },
-    {
-      "code": "2603",
-      "name": "長榮",
-      "ind": "航運",
-      "foreign": "−1,620",
-      "trust": "−4,250",
-      "dealer": "−57",
-      "total": "−5,927",
-      "foreignRaw": -1620,
-      "totalRaw": -5927
-    },
-    {
-      "code": "3711",
-      "name": "日月光投控",
+      "code": "2330",
+      "name": "台積電",
       "ind": "半導體",
-      "foreign": "−5,558",
-      "trust": "−25",
-      "dealer": "−78",
-      "total": "−5,661",
-      "foreignRaw": -5558,
-      "totalRaw": -5661
+      "foreign": "−15,543",
+      "trust": "−4",
+      "dealer": "−732",
+      "total": "−16,279",
+      "foreignRaw": -15543,
+      "totalRaw": -16279
+    },
+    {
+      "code": "2353",
+      "name": "宏碁",
+      "ind": "科技硬體",
+      "foreign": "−1,276",
+      "trust": "−31",
+      "dealer": "−68",
+      "total": "−1,375",
+      "foreignRaw": -1276,
+      "totalRaw": -1375
     },
     {
       "code": "2615",
       "name": "萬海",
       "ind": "航運",
-      "foreign": "−273",
-      "trust": "−8",
-      "dealer": "−256",
-      "total": "−537",
-      "foreignRaw": -273,
-      "totalRaw": -537
+      "foreign": "−1,239",
+      "trust": "−2",
+      "dealer": "−40",
+      "total": "−1,281",
+      "foreignRaw": -1239,
+      "totalRaw": -1281
     },
     {
       "code": "6669",
       "name": "緯穎",
       "ind": "科技硬體",
-      "foreign": "−238",
-      "trust": "−2",
-      "dealer": "−4",
-      "total": "−244",
-      "foreignRaw": -238,
-      "totalRaw": -244
+      "foreign": "−181",
+      "trust": "−108",
+      "dealer": "−92",
+      "total": "−381",
+      "foreignRaw": -181,
+      "totalRaw": -381
     }
   ]
 }
