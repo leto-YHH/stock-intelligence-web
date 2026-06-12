@@ -1,28 +1,40 @@
 {
-  "updatedAt": "2026-06-11",
+  "updatedAt": "2026-06-12",
   "buy": [
     {
-      "code": "2356",
-      "name": "英業達",
-      "ind": "科技硬體",
-      "foreign": "+7,082",
-      "trust": "+117",
-      "dealer": "+108",
-      "total": "+7,307",
-      "foreignRaw": 7082,
-      "totalRaw": 7307
+      "code": "2303",
+      "name": "聯電",
+      "ind": "半導體",
+      "foreign": "+15,230",
+      "trust": "+17,459",
+      "dealer": "+5,265",
+      "total": "+37,954",
+      "foreignRaw": 15230,
+      "totalRaw": 37954
     },
     {
-      "code": "2884",
-      "name": "玉山金",
-      "ind": "金融",
-      "foreign": "+2,859",
-      "trust": "+1,291",
-      "dealer": "+1,709",
-      "total": "+5,859",
-      "foreignRaw": 2859,
-      "totalRaw": 5859
+      "code": "1303",
+      "name": "南亞",
+      "ind": "化工",
+      "foreign": "+20,882",
+      "trust": "+447",
+      "dealer": "+1,041",
+      "total": "+22,370",
+      "foreignRaw": 20882,
+      "totalRaw": 22370
     }
   ],
-  "sell": []
+  "sell": [
+    {
+      "code": "2353",
+      "name": "宏碁",
+      "ind": "科技硬體",
+      "foreign": "−9,281",
+      "trust": "−109",
+      "dealer": "−226",
+      "total": "−9,616",
+      "foreignRaw": -9281,
+      "totalRaw": -9616
+    }
+  ]
 }
