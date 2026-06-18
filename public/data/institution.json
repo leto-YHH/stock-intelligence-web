@@ -1,17 +1,6 @@
 {
-  "updatedAt": "2026-06-17",
+  "updatedAt": "2026-06-18",
   "buy": [
-    {
-      "code": "1303",
-      "name": "南亞",
-      "ind": "化工",
-      "foreign": "+19,476",
-      "trust": "+43",
-      "dealer": "+1,124",
-      "total": "+20,643",
-      "foreignRaw": 19476,
-      "totalRaw": 20643
-    },
     {
       "code": "2609",
       "name": "陽明",
@@ -28,11 +17,11 @@
       "name": "瑞昱",
       "ind": "半導體",
       "foreign": "+571",
-      "trust": "+149",
+      "trust": "+146",
       "dealer": "+278",
-      "total": "+998",
+      "total": "+995",
       "foreignRaw": 571,
-      "totalRaw": 998
+      "totalRaw": 995
     }
   ],
   "sell": [
@@ -41,11 +30,11 @@
       "name": "日月光投控",
       "ind": "半導體",
       "foreign": "−847",
-      "trust": "−2,243",
+      "trust": "−2,248",
       "dealer": "−150",
-      "total": "−3,240",
+      "total": "−3,245",
       "foreignRaw": -847,
-      "totalRaw": -3240
+      "totalRaw": -3245
     },
     {
       "code": "2353",
@@ -63,11 +52,11 @@
       "name": "聯發科",
       "ind": "半導體",
       "foreign": "−1,052",
-      "trust": "−364",
+      "trust": "−366",
       "dealer": "−20",
-      "total": "−1,436",
+      "total": "−1,438",
       "foreignRaw": -1052,
-      "totalRaw": -1436
+      "totalRaw": -1438
     }
   ]
 }
