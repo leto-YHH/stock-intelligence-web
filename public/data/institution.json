@@ -2,61 +2,39 @@
   "updatedAt": "2026-06-18",
   "buy": [
     {
-      "code": "2609",
-      "name": "陽明",
-      "ind": "航運",
-      "foreign": "+4,604",
-      "trust": "+59",
-      "dealer": "+210",
-      "total": "+4,873",
-      "foreignRaw": 4604,
-      "totalRaw": 4873
-    },
-    {
-      "code": "2379",
-      "name": "瑞昱",
-      "ind": "半導體",
-      "foreign": "+571",
-      "trust": "+146",
-      "dealer": "+278",
-      "total": "+995",
-      "foreignRaw": 571,
-      "totalRaw": 995
+      "code": "1326",
+      "name": "台化",
+      "ind": "化工",
+      "foreign": "+428",
+      "trust": "+1,755",
+      "dealer": "+437",
+      "total": "+2,620",
+      "foreignRaw": 428,
+      "totalRaw": 2620
     }
   ],
   "sell": [
     {
-      "code": "3711",
-      "name": "日月光投控",
-      "ind": "半導體",
-      "foreign": "−847",
-      "trust": "−2,248",
-      "dealer": "−150",
-      "total": "−3,245",
-      "foreignRaw": -847,
-      "totalRaw": -3245
-    },
-    {
       "code": "2353",
       "name": "宏碁",
       "ind": "科技硬體",
-      "foreign": "−315",
-      "trust": "−208",
-      "dealer": "−1,006",
-      "total": "−1,529",
-      "foreignRaw": -315,
-      "totalRaw": -1529
+      "foreign": "−2,778",
+      "trust": "−595",
+      "dealer": "−38",
+      "total": "−3,411",
+      "foreignRaw": -2778,
+      "totalRaw": -3411
     },
     {
-      "code": "2454",
-      "name": "聯發科",
-      "ind": "半導體",
-      "foreign": "−1,052",
-      "trust": "−366",
-      "dealer": "−20",
-      "total": "−1,438",
-      "foreignRaw": -1052,
-      "totalRaw": -1438
+      "code": "2603",
+      "name": "長榮",
+      "ind": "航運",
+      "foreign": "−1,455",
+      "trust": "−413",
+      "dealer": "−28",
+      "total": "−1,896",
+      "foreignRaw": -1455,
+      "totalRaw": -1896
     }
   ]
 }
