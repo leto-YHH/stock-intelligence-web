@@ -5,12 +5,12 @@
       {
         "rank": 1,
         "ind": "金融",
-        "score": 65,
+        "score": 63,
         "scores": {
           "capital": 100,
           "sentiment": 54,
           "rs": 64,
-          "us": 58,
+          "us": 46,
           "fund": 43
         },
         "stocks": [
@@ -48,13 +48,37 @@
       },
       {
         "rank": 2,
+        "ind": "化工原物料",
+        "score": 54,
+        "scores": {
+          "capital": 39,
+          "sentiment": 50,
+          "rs": 45,
+          "us": 100,
+          "fund": 39
+        },
+        "stocks": [
+          {
+            "code": "1304",
+            "name": "台聚",
+            "price": 13.55,
+            "winRate": "62%",
+            "avgReturn": "+3.6%",
+            "samples": 238,
+            "tags": [],
+            "logic": "勝率 62%，平均報酬 +3.6%，穩定度 0%"
+          }
+        ]
+      },
+      {
+        "rank": 3,
         "ind": "半導體",
-        "score": 55,
+        "score": 54,
         "scores": {
           "capital": 0,
           "sentiment": 54,
-          "rs": 75,
-          "us": 100,
+          "rs": 77,
+          "us": 93,
           "fund": 28
         },
         "stocks": [
@@ -91,14 +115,14 @@
         ]
       },
       {
-        "rank": 3,
+        "rank": 4,
         "ind": "光學/被動元件",
-        "score": 54,
+        "score": 52,
         "scores": {
-          "capital": 17,
+          "capital": 21,
           "sentiment": 54,
           "rs": 100,
-          "us": 42,
+          "us": 29,
           "fund": 26
         },
         "stocks": [
@@ -135,53 +159,29 @@
         ]
       },
       {
-        "rank": 4,
+        "rank": 5,
         "ind": "生技醫療",
         "score": 45,
         "scores": {
-          "capital": 20,
-          "sentiment": 50,
+          "capital": 23,
+          "sentiment": 54,
           "rs": 0,
-          "us": 93,
+          "us": 85,
           "fund": 100
         },
         "stocks": []
-      },
-      {
-        "rank": 5,
-        "ind": "化工原物料",
-        "score": 38,
-        "scores": {
-          "capital": 28,
-          "sentiment": 50,
-          "rs": 43,
-          "us": 31,
-          "fund": 39
-        },
-        "stocks": [
-          {
-            "code": "1304",
-            "name": "台聚",
-            "price": 13.55,
-            "winRate": "62%",
-            "avgReturn": "+3.6%",
-            "samples": 238,
-            "tags": [],
-            "logic": "勝率 62%，平均報酬 +3.6%，穩定度 0%"
-          }
-        ]
       }
     ],
     "3m": [
       {
         "rank": 1,
         "ind": "金融",
-        "score": 65,
+        "score": 63,
         "scores": {
           "capital": 100,
           "sentiment": 54,
           "rs": 64,
-          "us": 58,
+          "us": 46,
           "fund": 43
         },
         "stocks": [
@@ -219,13 +219,57 @@
       },
       {
         "rank": 2,
+        "ind": "化工原物料",
+        "score": 54,
+        "scores": {
+          "capital": 39,
+          "sentiment": 50,
+          "rs": 45,
+          "us": 100,
+          "fund": 39
+        },
+        "stocks": [
+          {
+            "code": "1303",
+            "name": "南亞",
+            "price": 139.0,
+            "winRate": "81%",
+            "avgReturn": "+29.5%",
+            "samples": 298,
+            "tags": [],
+            "logic": "勝率 81%，平均報酬 +29.5%，穩定度 16%"
+          },
+          {
+            "code": "6505",
+            "name": "台塑石化",
+            "price": 53.5,
+            "winRate": "82%",
+            "avgReturn": "+9.7%",
+            "samples": 298,
+            "tags": [],
+            "logic": "勝率 82%，平均報酬 +9.7%，穩定度 8%"
+          },
+          {
+            "code": "1326",
+            "name": "台化",
+            "price": 54.2,
+            "winRate": "74%",
+            "avgReturn": "+14.9%",
+            "samples": 298,
+            "tags": [],
+            "logic": "勝率 74%，平均報酬 +14.9%，穩定度 1%"
+          }
+        ]
+      },
+      {
+        "rank": 3,
         "ind": "半導體",
-        "score": 55,
+        "score": 54,
         "scores": {
           "capital": 0,
           "sentiment": 54,
-          "rs": 75,
-          "us": 100,
+          "rs": 77,
+          "us": 93,
           "fund": 28
         },
         "stocks": [
@@ -262,14 +306,14 @@
         ]
       },
       {
-        "rank": 3,
+        "rank": 4,
         "ind": "光學/被動元件",
-        "score": 54,
+        "score": 52,
         "scores": {
-          "capital": 17,
+          "capital": 21,
           "sentiment": 54,
           "rs": 100,
-          "us": 42,
+          "us": 29,
           "fund": 26
         },
         "stocks": [
@@ -306,73 +350,29 @@
         ]
       },
       {
-        "rank": 4,
+        "rank": 5,
         "ind": "生技醫療",
         "score": 45,
         "scores": {
-          "capital": 20,
-          "sentiment": 50,
+          "capital": 23,
+          "sentiment": 54,
           "rs": 0,
-          "us": 93,
+          "us": 85,
           "fund": 100
         },
         "stocks": []
-      },
-      {
-        "rank": 5,
-        "ind": "化工原物料",
-        "score": 38,
-        "scores": {
-          "capital": 28,
-          "sentiment": 50,
-          "rs": 43,
-          "us": 31,
-          "fund": 39
-        },
-        "stocks": [
-          {
-            "code": "1303",
-            "name": "南亞",
-            "price": 139.0,
-            "winRate": "81%",
-            "avgReturn": "+29.5%",
-            "samples": 298,
-            "tags": [],
-            "logic": "勝率 81%，平均報酬 +29.5%，穩定度 16%"
-          },
-          {
-            "code": "6505",
-            "name": "台塑石化",
-            "price": 53.5,
-            "winRate": "82%",
-            "avgReturn": "+9.7%",
-            "samples": 298,
-            "tags": [],
-            "logic": "勝率 82%，平均報酬 +9.7%，穩定度 8%"
-          },
-          {
-            "code": "1326",
-            "name": "台化",
-            "price": 54.2,
-            "winRate": "74%",
-            "avgReturn": "+14.9%",
-            "samples": 298,
-            "tags": [],
-            "logic": "勝率 74%，平均報酬 +14.9%，穩定度 1%"
-          }
-        ]
       }
     ],
     "1y": [
       {
         "rank": 1,
         "ind": "金融",
-        "score": 65,
+        "score": 63,
         "scores": {
           "capital": 100,
           "sentiment": 54,
           "rs": 64,
-          "us": 58,
+          "us": 46,
           "fund": 43
         },
         "stocks": [
@@ -410,13 +410,26 @@
       },
       {
         "rank": 2,
+        "ind": "化工原物料",
+        "score": 54,
+        "scores": {
+          "capital": 39,
+          "sentiment": 50,
+          "rs": 45,
+          "us": 100,
+          "fund": 39
+        },
+        "stocks": []
+      },
+      {
+        "rank": 3,
         "ind": "半導體",
-        "score": 55,
+        "score": 54,
         "scores": {
           "capital": 0,
           "sentiment": 54,
-          "rs": 75,
-          "us": 100,
+          "rs": 77,
+          "us": 93,
           "fund": 28
         },
         "stocks": [
@@ -453,14 +466,14 @@
         ]
       },
       {
-        "rank": 3,
+        "rank": 4,
         "ind": "光學/被動元件",
-        "score": 54,
+        "score": 52,
         "scores": {
-          "capital": 17,
+          "capital": 21,
           "sentiment": 54,
           "rs": 100,
-          "us": 42,
+          "us": 29,
           "fund": 26
         },
         "stocks": [
@@ -487,28 +500,15 @@
         ]
       },
       {
-        "rank": 4,
+        "rank": 5,
         "ind": "生技醫療",
         "score": 45,
         "scores": {
-          "capital": 20,
-          "sentiment": 50,
+          "capital": 23,
+          "sentiment": 54,
           "rs": 0,
-          "us": 93,
+          "us": 85,
           "fund": 100
-        },
-        "stocks": []
-      },
-      {
-        "rank": 5,
-        "ind": "化工原物料",
-        "score": 38,
-        "scores": {
-          "capital": 28,
-          "sentiment": 50,
-          "rs": 43,
-          "us": 31,
-          "fund": 39
         },
         "stocks": []
       }
