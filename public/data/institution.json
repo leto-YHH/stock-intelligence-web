@@ -1,40 +1,84 @@
 {
-  "updatedAt": "2026-06-18",
+  "updatedAt": "2026-06-19",
   "buy": [
+    {
+      "code": "2356",
+      "name": "英業達",
+      "ind": "科技硬體",
+      "foreign": "+10,164",
+      "trust": "+302",
+      "dealer": "+1,244",
+      "total": "+11,710",
+      "foreignRaw": 10164,
+      "totalRaw": 11710
+    },
+    {
+      "code": "2891",
+      "name": "中信金",
+      "ind": "金融",
+      "foreign": "+4,849",
+      "trust": "+4,422",
+      "dealer": "+11",
+      "total": "+9,282",
+      "foreignRaw": 4849,
+      "totalRaw": 9282
+    },
     {
       "code": "1326",
       "name": "台化",
       "ind": "化工",
-      "foreign": "+428",
-      "trust": "+1,755",
-      "dealer": "+437",
-      "total": "+2,620",
-      "foreignRaw": 428,
-      "totalRaw": 2620
+      "foreign": "+810",
+      "trust": "+875",
+      "dealer": "+797",
+      "total": "+2,482",
+      "foreignRaw": 810,
+      "totalRaw": 2482
+    },
+    {
+      "code": "2327",
+      "name": "國巨",
+      "ind": "光電",
+      "foreign": "+376",
+      "trust": "+1,350",
+      "dealer": "+46",
+      "total": "+1,772",
+      "foreignRaw": 376,
+      "totalRaw": 1772
+    },
+    {
+      "code": "6505",
+      "name": "台塑石化",
+      "ind": "化工",
+      "foreign": "+746",
+      "trust": "+108",
+      "dealer": "+345",
+      "total": "+1,199",
+      "foreignRaw": 746,
+      "totalRaw": 1199
+    },
+    {
+      "code": "1301",
+      "name": "台塑",
+      "ind": "化工",
+      "foreign": "+156",
+      "trust": "+389",
+      "dealer": "+386",
+      "total": "+931",
+      "foreignRaw": 156,
+      "totalRaw": 931
     }
   ],
   "sell": [
     {
-      "code": "2353",
-      "name": "宏碁",
-      "ind": "科技硬體",
-      "foreign": "−2,778",
-      "trust": "−595",
-      "dealer": "−38",
-      "total": "−3,411",
-      "foreignRaw": -2778,
-      "totalRaw": -3411
-    },
-    {
-      "code": "2603",
-      "name": "長榮",
-      "ind": "航運",
-      "foreign": "−1,455",
-      "trust": "−413",
-      "dealer": "−28",
-      "total": "−1,896",
-      "foreignRaw": -1455,
-      "totalRaw": -1896
+      "code": "3443",
+      "name": "創意",
+      "ind": "光電",
+      "foreign": "−652",
+      "trust": "−125",
+      "dealer": "−122",
+      "total": "−899",
+      "foreignRaw": -652,
+      "totalRaw": -899
     }
   ]
 }
