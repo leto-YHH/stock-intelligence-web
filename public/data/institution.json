@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-06-19",
+  "updatedAt": "2026-06-22",
   "buy": [
     {
       "code": "2356",
       "name": "英業達",
       "ind": "科技硬體",
       "foreign": "+10,164",
-      "trust": "+302",
-      "dealer": "+1,244",
-      "total": "+11,710",
+      "trust": "+919",
+      "dealer": "+12,936",
+      "total": "+24,019",
       "foreignRaw": 10164,
-      "totalRaw": 11710
+      "totalRaw": 24019
     },
     {
       "code": "2891",
