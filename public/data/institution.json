@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24",
+  "updatedAt": "2026-06-25",
   "buy": [],
   "sell": [
     {
@@ -7,11 +7,11 @@
       "name": "聯發科",
       "ind": "半導體",
       "foreign": "−2,641",
-      "trust": "−1,470",
+      "trust": "−1,472",
       "dealer": "−40",
-      "total": "−4,151",
+      "total": "−4,153",
       "foreignRaw": -2641,
-      "totalRaw": -4151
+      "totalRaw": -4153
     },
     {
       "code": "3006",
@@ -29,11 +29,11 @@
       "name": "萬海",
       "ind": "航運",
       "foreign": "−588",
-      "trust": "−16",
+      "trust": "−17",
       "dealer": "−36",
-      "total": "−640",
+      "total": "−641",
       "foreignRaw": -588,
-      "totalRaw": -640
+      "totalRaw": -641
     }
   ]
 }
