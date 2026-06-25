@@ -5,9 +5,9 @@
       {
         "rank": 1,
         "ind": "化工原物料",
-        "score": 52,
+        "score": 55,
         "scores": {
-          "capital": 74,
+          "capital": 91,
           "sentiment": 50,
           "rs": 47,
           "us": 48,
@@ -29,10 +29,10 @@
       {
         "rank": 2,
         "ind": "金融",
-        "score": 48,
+        "score": 49,
         "scores": {
           "capital": 100,
-          "sentiment": 50,
+          "sentiment": 54,
           "rs": 47,
           "us": 1,
           "fund": 43
@@ -75,7 +75,7 @@
         "ind": "生技醫療",
         "score": 47,
         "scores": {
-          "capital": 20,
+          "capital": 21,
           "sentiment": 54,
           "rs": 0,
           "us": 100,
@@ -86,9 +86,9 @@
       {
         "rank": 4,
         "ind": "光學/被動元件",
-        "score": 45,
+        "score": 46,
         "scores": {
-          "capital": 19,
+          "capital": 21,
           "sentiment": 50,
           "rs": 100,
           "us": 0,
@@ -130,9 +130,9 @@
       {
         "rank": 5,
         "ind": "半導體",
-        "score": 39,
+        "score": 35,
         "scores": {
-          "capital": 30,
+          "capital": 13,
           "sentiment": 50,
           "rs": 61,
           "us": 13,
@@ -176,9 +176,9 @@
       {
         "rank": 1,
         "ind": "化工原物料",
-        "score": 52,
+        "score": 55,
         "scores": {
-          "capital": 74,
+          "capital": 91,
           "sentiment": 50,
           "rs": 47,
           "us": 48,
@@ -220,10 +220,10 @@
       {
         "rank": 2,
         "ind": "金融",
-        "score": 48,
+        "score": 49,
         "scores": {
           "capital": 100,
-          "sentiment": 50,
+          "sentiment": 54,
           "rs": 47,
           "us": 1,
           "fund": 43
@@ -266,7 +266,7 @@
         "ind": "生技醫療",
         "score": 47,
         "scores": {
-          "capital": 20,
+          "capital": 21,
           "sentiment": 54,
           "rs": 0,
           "us": 100,
@@ -277,9 +277,9 @@
       {
         "rank": 4,
         "ind": "光學/被動元件",
-        "score": 45,
+        "score": 46,
         "scores": {
-          "capital": 19,
+          "capital": 21,
           "sentiment": 50,
           "rs": 100,
           "us": 0,
@@ -321,9 +321,9 @@
       {
         "rank": 5,
         "ind": "半導體",
-        "score": 39,
+        "score": 35,
         "scores": {
-          "capital": 30,
+          "capital": 13,
           "sentiment": 50,
           "rs": 61,
           "us": 13,
@@ -367,9 +367,9 @@
       {
         "rank": 1,
         "ind": "化工原物料",
-        "score": 52,
+        "score": 55,
         "scores": {
-          "capital": 74,
+          "capital": 91,
           "sentiment": 50,
           "rs": 47,
           "us": 48,
@@ -380,10 +380,10 @@
       {
         "rank": 2,
         "ind": "金融",
-        "score": 48,
+        "score": 49,
         "scores": {
           "capital": 100,
-          "sentiment": 50,
+          "sentiment": 54,
           "rs": 47,
           "us": 1,
           "fund": 43
@@ -426,7 +426,7 @@
         "ind": "生技醫療",
         "score": 47,
         "scores": {
-          "capital": 20,
+          "capital": 21,
           "sentiment": 54,
           "rs": 0,
           "us": 100,
@@ -437,9 +437,9 @@
       {
         "rank": 4,
         "ind": "光學/被動元件",
-        "score": 45,
+        "score": 46,
         "scores": {
-          "capital": 19,
+          "capital": 21,
           "sentiment": 50,
           "rs": 100,
           "us": 0,
@@ -481,9 +481,9 @@
       {
         "rank": 5,
         "ind": "半導體",
-        "score": 39,
+        "score": 35,
         "scores": {
-          "capital": 30,
+          "capital": 13,
           "sentiment": 50,
           "rs": 61,
           "us": 13,
