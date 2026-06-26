@@ -1,95 +1,40 @@
 {
-  "updatedAt": "2026-06-25",
+  "updatedAt": "2026-06-26",
   "buy": [
     {
-      "code": "2637",
-      "name": "慧洋-KY",
-      "ind": "航運",
-      "foreign": "+516",
-      "trust": "+3",
-      "dealer": "+34",
-      "total": "+553",
-      "foreignRaw": 516,
-      "totalRaw": 553
+      "code": "1326",
+      "name": "台化",
+      "ind": "化工",
+      "foreign": "+428",
+      "trust": "+1,755",
+      "dealer": "+437",
+      "total": "+2,620",
+      "foreignRaw": 428,
+      "totalRaw": 2620
     }
   ],
   "sell": [
     {
-      "code": "2324",
-      "name": "仁寶",
+      "code": "2353",
+      "name": "宏碁",
       "ind": "科技硬體",
-      "foreign": "−17,692",
-      "trust": "−32",
-      "dealer": "−1,268",
-      "total": "−18,992",
-      "foreignRaw": -17692,
-      "totalRaw": -18992
-    },
-    {
-      "code": "6282",
-      "name": "康舒",
-      "ind": "科技硬體",
-      "foreign": "−13,693",
-      "trust": "−2",
-      "dealer": "−1,394",
-      "total": "−15,089",
-      "foreignRaw": -13693,
-      "totalRaw": -15089
+      "foreign": "−2,778",
+      "trust": "−595",
+      "dealer": "−38",
+      "total": "−3,411",
+      "foreignRaw": -2778,
+      "totalRaw": -3411
     },
     {
       "code": "2603",
       "name": "長榮",
       "ind": "航運",
-      "foreign": "−4,231",
-      "trust": "−284",
-      "dealer": "−24",
-      "total": "−4,539",
-      "foreignRaw": -4231,
-      "totalRaw": -4539
-    },
-    {
-      "code": "2615",
-      "name": "萬海",
-      "ind": "航運",
-      "foreign": "−1,597",
-      "trust": "−177",
-      "dealer": "−117",
-      "total": "−1,891",
-      "foreignRaw": -1597,
-      "totalRaw": -1891
-    },
-    {
-      "code": "2881",
-      "name": "富邦金",
-      "ind": "金融",
-      "foreign": "−628",
-      "trust": "−569",
-      "dealer": "−156",
-      "total": "−1,353",
-      "foreignRaw": -628,
-      "totalRaw": -1353
-    },
-    {
-      "code": "2353",
-      "name": "宏碁",
-      "ind": "科技硬體",
-      "foreign": "−412",
-      "trust": "−112",
-      "dealer": "−204",
-      "total": "−728",
-      "foreignRaw": -412,
-      "totalRaw": -728
-    },
-    {
-      "code": "6669",
-      "name": "緯穎",
-      "ind": "科技硬體",
-      "foreign": "−92",
-      "trust": "−13",
-      "dealer": "−84",
-      "total": "−189",
-      "foreignRaw": -92,
-      "totalRaw": -189
+      "foreign": "−1,455",
+      "trust": "−413",
+      "dealer": "−28",
+      "total": "−1,896",
+      "foreignRaw": -1455,
+      "totalRaw": -1896
     }
   ]
 }
