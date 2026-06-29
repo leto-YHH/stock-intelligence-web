@@ -1,40 +1,17 @@
 {
-  "updatedAt": "2026-06-26",
+  "updatedAt": "2026-06-29",
   "buy": [
     {
-      "code": "1326",
-      "name": "台化",
-      "ind": "化工",
-      "foreign": "+428",
-      "trust": "+1,755",
-      "dealer": "+437",
-      "total": "+2,620",
-      "foreignRaw": 428,
-      "totalRaw": 2620
+      "code": "2891",
+      "name": "中信金",
+      "ind": "金融",
+      "foreign": "+4,591",
+      "trust": "+1,142",
+      "dealer": "+745",
+      "total": "+6,478",
+      "foreignRaw": 4591,
+      "totalRaw": 6478
     }
   ],
-  "sell": [
-    {
-      "code": "2353",
-      "name": "宏碁",
-      "ind": "科技硬體",
-      "foreign": "−2,778",
-      "trust": "−595",
-      "dealer": "−38",
-      "total": "−3,411",
-      "foreignRaw": -2778,
-      "totalRaw": -3411
-    },
-    {
-      "code": "2603",
-      "name": "長榮",
-      "ind": "航運",
-      "foreign": "−1,455",
-      "trust": "−413",
-      "dealer": "−28",
-      "total": "−1,896",
-      "foreignRaw": -1455,
-      "totalRaw": -1896
-    }
-  ]
+  "sell": []
 }
