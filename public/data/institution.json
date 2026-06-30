@@ -1,16 +1,38 @@
 {
-  "updatedAt": "2026-06-29",
+  "updatedAt": "2026-06-30",
   "buy": [
     {
-      "code": "2891",
-      "name": "中信金",
-      "ind": "金融",
-      "foreign": "+4,591",
-      "trust": "+1,142",
-      "dealer": "+745",
-      "total": "+6,478",
-      "foreignRaw": 4591,
-      "totalRaw": 6478
+      "code": "2356",
+      "name": "英業達",
+      "ind": "科技硬體",
+      "foreign": "+2,296",
+      "trust": "+4,681",
+      "dealer": "+1,070",
+      "total": "+8,047",
+      "foreignRaw": 2296,
+      "totalRaw": 8047
+    },
+    {
+      "code": "1303",
+      "name": "南亞",
+      "ind": "化工",
+      "foreign": "+4,065",
+      "trust": "+3,288",
+      "dealer": "+488",
+      "total": "+7,841",
+      "foreignRaw": 4065,
+      "totalRaw": 7841
+    },
+    {
+      "code": "2609",
+      "name": "陽明",
+      "ind": "航運",
+      "foreign": "+2,804",
+      "trust": "+15",
+      "dealer": "+102",
+      "total": "+2,921",
+      "foreignRaw": 2804,
+      "totalRaw": 2921
     }
   ],
   "sell": []
