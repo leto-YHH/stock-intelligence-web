@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/stock-intelligence-web/static/css/main.7a1a7563.css",
-    "main.js": "/stock-intelligence-web/static/js/main.f3ce74d4.js",
+    "main.js": "/stock-intelligence-web/static/js/main.3b059ca2.js",
     "static/js/453.bb6498e0.chunk.js": "/stock-intelligence-web/static/js/453.bb6498e0.chunk.js",
     "index.html": "/stock-intelligence-web/index.html",
     "main.7a1a7563.css.map": "/stock-intelligence-web/static/css/main.7a1a7563.css.map",
-    "main.f3ce74d4.js.map": "/stock-intelligence-web/static/js/main.f3ce74d4.js.map",
+    "main.3b059ca2.js.map": "/stock-intelligence-web/static/js/main.3b059ca2.js.map",
     "453.bb6498e0.chunk.js.map": "/stock-intelligence-web/static/js/453.bb6498e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a1a7563.css",
-    "static/js/main.f3ce74d4.js"
+    "static/js/main.3b059ca2.js"
   ]
 }
