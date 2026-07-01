@@ -2,38 +2,39 @@
   "updatedAt": "2026-07-01",
   "buy": [
     {
-      "code": "2356",
-      "name": "英業達",
+      "code": "2382",
+      "name": "廣達",
       "ind": "科技硬體",
-      "foreign": "+2,296",
-      "trust": "+4,681",
-      "dealer": "+1,070",
-      "total": "+8,047",
-      "foreignRaw": 2296,
-      "totalRaw": 8047
-    },
-    {
-      "code": "1303",
-      "name": "南亞",
-      "ind": "化工",
-      "foreign": "+4,065",
-      "trust": "+3,288",
-      "dealer": "+488",
-      "total": "+7,841",
-      "foreignRaw": 4065,
-      "totalRaw": 7841
-    },
-    {
-      "code": "2609",
-      "name": "陽明",
-      "ind": "航運",
-      "foreign": "+2,804",
-      "trust": "+15",
-      "dealer": "+102",
-      "total": "+2,921",
-      "foreignRaw": 2804,
-      "totalRaw": 2921
+      "foreign": "+2,111",
+      "trust": "+2,514",
+      "dealer": "+42",
+      "total": "+4,667",
+      "foreignRaw": 2111,
+      "totalRaw": 4667
     }
   ],
-  "sell": []
+  "sell": [
+    {
+      "code": "2409",
+      "name": "友達",
+      "ind": "面板",
+      "foreign": "−163,161",
+      "trust": "−299",
+      "dealer": "−8,241",
+      "total": "−171,701",
+      "foreignRaw": -163161,
+      "totalRaw": -171701
+    },
+    {
+      "code": "2324",
+      "name": "仁寶",
+      "ind": "科技硬體",
+      "foreign": "−3,798",
+      "trust": "−8,684",
+      "dealer": "−93",
+      "total": "−12,575",
+      "foreignRaw": -3798,
+      "totalRaw": -12575
+    }
+  ]
 }
