@@ -47,13 +47,13 @@ function Portfolio() {
     init();
   }, []);
 
-  const totalInvested = stocks.reduce((sum, s) => sum + s.cost * s.shares * 1000, 0);
+  const totalInvested = stocks.reduce((sum, s) => sum + s.cost * s.shares, 0);
 
   // 計算總損益
   const totalPnl = stocks.reduce((sum, s) => {
     const d = dashData[s.code];
     if (!d || !d.price) return sum;
-    return sum + (d.price - s.cost) * s.shares * 1000;
+    return sum + (d.price - s.cost) * s.shares;
   }, 0);
 
   const handlePasswordSubmit = () => {
@@ -128,7 +128,7 @@ function Portfolio() {
         <div className="sum-card">
           <div className="sum-label">持股數</div>
           <div className="sum-val">{stocks.length} 檔</div>
-          <div className="sum-sub">{stocks.reduce((s, x) => s + x.shares, 0)} 張</div>
+          <div className="sum-sub">{stocks.reduce((s, x) => s + x.shares, 0)} 股</div>
         </div>
         <div className="sum-card">
           <div className="sum-label">總投入</div>
@@ -156,7 +156,7 @@ function Portfolio() {
           stocks.map(s => {
             const d = dashData[s.code];
             const price = d?.price || 0;
-            const pnl = price ? Math.round((price - s.cost) * s.shares * 1000) : null;
+            const pnl = price ? Math.round((price - s.cost) * s.shares) : null;
             const pnlPct = price && s.cost ? ((price - s.cost) / s.cost * 100).toFixed(1) : null;
             const priceDir = price >= s.cost ? 'up' : 'down';
 
@@ -166,7 +166,7 @@ function Portfolio() {
                   <div className="card-info">
                     <div>
                       <div className="stock-name">{s.name}</div>
-                      <div className="stock-meta">{s.code} · {s.shares}張 · 入場 {s.entry_date}</div>
+                      <div className="stock-meta">{s.code} · {s.shares}股 · 入場 {s.entry_date}</div>
                     </div>
                   </div>
                   {price > 0 && (
@@ -205,8 +205,8 @@ function Portfolio() {
                 <div className="card-body">
                   <div className="price-grid">
                     <div className="price-item"><span className="price-lbl">成本</span><span className="price-val">{s.cost}</span></div>
-                    <div className="price-item"><span className="price-lbl">張數</span><span className="price-val">{s.shares}</span></div>
-                    <div className="price-item"><span className="price-lbl">投入</span><span className="price-val">{(s.cost * s.shares * 1000).toLocaleString()}</span></div>
+                    <div className="price-item"><span className="price-lbl">股數</span><span className="price-val">{s.shares}</span></div>
+                    <div className="price-item"><span className="price-lbl">投入</span><span className="price-val">{(s.cost * s.shares).toLocaleString()}</span></div>
                   </div>
                 </div>
               </div>
@@ -255,7 +255,7 @@ function Portfolio() {
             </div>
             <div className="form-grid">
               <div className="form-row">
-                <label className="form-label">持有張數</label>
+                <label className="form-label">持有股數</label>
                 <input className="form-input" type="number" placeholder="例：1" value={form.shares} onChange={e => setForm({ ...form, shares: e.target.value })} />
               </div>
               <div className="form-row">

@@ -33,7 +33,7 @@ function Stocks() {
       <div className="stocks-hero">
         <div className="date">{allData.updatedAt?.replace(/-/g, ' · ')} 更新</div>
         <div className="stocks-title">每日選股推薦</div>
-        <div className="stocks-sub">五維度評分選出產業，再從產業內篩選通過回測門檻的個股，每日平日更新</div>
+        <div className="stocks-sub">六維度評分選出產業，再從產業內篩選通過回測門檻的個股，每日平日更新</div>
       </div>
 
       <div className="period-tabs">
@@ -65,6 +65,7 @@ function Stocks() {
                 { lbl: '相對強度', val: ind.scores.rs },
                 { lbl: '美國連動', val: ind.scores.us },
                 { lbl: '基本面', val: ind.scores.fund },
+                { lbl: '流動性', val: ind.scores.liquidity },
               ].map(s => (
                 <div className="score-chip" key={s.lbl}>
                   <span className="score-chip-lbl">{s.lbl}</span>
@@ -112,7 +113,7 @@ function Stocks() {
           <div className="explain-block-body">
             系統每週一自動執行，分三個階段從台股 8 大產業中篩選出值得關注的個股：
             <ol>
-              <li><b>產業評分：</b>用五個維度為每個產業打分，選出前 5 名產業</li>
+              <li><b>產業評分：</b>用六個維度為每個產業打分，選出前 5 名產業</li>
               <li><b>個股回測：</b>對入選產業的每一檔個股執行歷史回測，計算過去持有的勝率與報酬</li>
               <li><b>達標篩選：</b>只有勝率與平均報酬同時達標的個股才會出現在推薦名單</li>
             </ol>
@@ -120,7 +121,7 @@ function Stocks() {
         </div>
 
         <div className="explain-block">
-          <div className="explain-block-title">🏭 第一層：五維度產業評分（各 0–100 分）</div>
+          <div className="explain-block-title">🏭 第一層：六維度產業評分（各 0–100 分）</div>
           <div className="explain-block-body">
             <div className="explain-dim">
               <div className="explain-dim-name">💰 資金流向（法人買超）</div>
@@ -141,6 +142,10 @@ function Stocks() {
             <div className="explain-dim">
               <div className="explain-dim-name">📊 基本面（月營收趨勢）</div>
               <div className="explain-dim-desc">分析各產業個股近 18 個月的月營收年增率（YoY）是否持續加速成長。若一個產業的營收成長動能持續擴大，代表基本面支撐強，適合中長期持有。此維度在 1 年週期權重最高（50%），短期幾乎不考慮（1 個月為 0%）。</div>
+            </div>
+            <div className="explain-dim">
+              <div className="explain-dim-name">💧 流動性（成交量活躍度）</div>
+              <div className="explain-dim-desc">計算各產業個股近 20 日平均成交量，日均量低於 100 張的個股直接排除。評分使用「量比」（當日成交量 / 20 日均量）衡量市場活躍度，量比越高代表近期交投熱絡、進出容易。此維度在 1 個月週期權重 10%，長線（1 年）僅 5%，因長線投資者較能承受流動性稍低的標的。</div>
             </div>
           </div>
         </div>
