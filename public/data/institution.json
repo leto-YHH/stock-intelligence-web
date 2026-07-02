@@ -1,40 +1,40 @@
 {
-  "updatedAt": "2026-07-01",
+  "updatedAt": "2026-07-02",
   "buy": [
     {
-      "code": "2382",
-      "name": "廣達",
-      "ind": "科技硬體",
-      "foreign": "+2,111",
-      "trust": "+2,514",
-      "dealer": "+42",
-      "total": "+4,667",
-      "foreignRaw": 2111,
-      "totalRaw": 4667
+      "code": "3711",
+      "name": "日月光投控",
+      "ind": "半導體",
+      "foreign": "+284",
+      "trust": "+1,337",
+      "dealer": "+320",
+      "total": "+1,941",
+      "foreignRaw": 284,
+      "totalRaw": 1941
+    },
+    {
+      "code": "3443",
+      "name": "創意",
+      "ind": "光電",
+      "foreign": "+244",
+      "trust": "+115",
+      "dealer": "+26",
+      "total": "+385",
+      "foreignRaw": 244,
+      "totalRaw": 385
     }
   ],
   "sell": [
     {
-      "code": "2409",
-      "name": "友達",
-      "ind": "面板",
-      "foreign": "−163,161",
-      "trust": "−299",
-      "dealer": "−8,241",
-      "total": "−171,701",
-      "foreignRaw": -163161,
-      "totalRaw": -171701
-    },
-    {
-      "code": "2324",
-      "name": "仁寶",
-      "ind": "科技硬體",
-      "foreign": "−3,798",
-      "trust": "−8,684",
-      "dealer": "−93",
-      "total": "−12,575",
-      "foreignRaw": -3798,
-      "totalRaw": -12575
+      "code": "2637",
+      "name": "慧洋-KY",
+      "ind": "航運",
+      "foreign": "−32",
+      "trust": "−3",
+      "dealer": "−5",
+      "total": "−40",
+      "foreignRaw": -32,
+      "totalRaw": -40
     }
   ]
 }
