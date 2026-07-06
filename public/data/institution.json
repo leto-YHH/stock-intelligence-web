@@ -1,62 +1,40 @@
 {
-  "updatedAt": "2026-07-03",
+  "updatedAt": "2026-07-06",
   "buy": [
     {
-      "code": "2609",
-      "name": "陽明",
-      "ind": "航運",
-      "foreign": "+12,552",
-      "trust": "+37",
-      "dealer": "+1,600",
-      "total": "+14,189",
-      "foreignRaw": 12552,
-      "totalRaw": 14189
-    },
-    {
-      "code": "2615",
-      "name": "萬海",
-      "ind": "航運",
-      "foreign": "+10,357",
-      "trust": "+159",
-      "dealer": "+491",
-      "total": "+11,007",
-      "foreignRaw": 10357,
-      "totalRaw": 11007
-    },
-    {
-      "code": "2603",
-      "name": "長榮",
-      "ind": "航運",
-      "foreign": "+6,656",
-      "trust": "+116",
-      "dealer": "+643",
-      "total": "+7,415",
-      "foreignRaw": 6656,
-      "totalRaw": 7415
-    },
-    {
-      "code": "2382",
-      "name": "廣達",
+      "code": "6282",
+      "name": "康舒",
       "ind": "科技硬體",
-      "foreign": "+1,229",
-      "trust": "+1,974",
-      "dealer": "+402",
-      "total": "+3,605",
-      "foreignRaw": 1229,
-      "totalRaw": 3605
+      "foreign": "+8,034",
+      "trust": "+594",
+      "dealer": "+145",
+      "total": "+8,773",
+      "foreignRaw": 8034,
+      "totalRaw": 8773
+    },
+    {
+      "code": "2886",
+      "name": "兆豐金",
+      "ind": "金融",
+      "foreign": "+1,397",
+      "trust": "+4,668",
+      "dealer": "+1,124",
+      "total": "+7,189",
+      "foreignRaw": 1397,
+      "totalRaw": 7189
     }
   ],
   "sell": [
     {
-      "code": "3006",
-      "name": "晶技",
-      "ind": "光電",
-      "foreign": "−4,602",
-      "trust": "−791",
-      "dealer": "−208",
-      "total": "−5,601",
-      "foreignRaw": -4602,
-      "totalRaw": -5601
+      "code": "1301",
+      "name": "台塑",
+      "ind": "化工",
+      "foreign": "−4,592",
+      "trust": "−20",
+      "dealer": "−579",
+      "total": "−5,191",
+      "foreignRaw": -4592,
+      "totalRaw": -5191
     }
   ]
 }
