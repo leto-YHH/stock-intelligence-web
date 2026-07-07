@@ -1,40 +1,5 @@
 {
-  "updatedAt": "2026-07-06",
-  "buy": [
-    {
-      "code": "6282",
-      "name": "康舒",
-      "ind": "科技硬體",
-      "foreign": "+8,034",
-      "trust": "+594",
-      "dealer": "+145",
-      "total": "+8,773",
-      "foreignRaw": 8034,
-      "totalRaw": 8773
-    },
-    {
-      "code": "2886",
-      "name": "兆豐金",
-      "ind": "金融",
-      "foreign": "+1,397",
-      "trust": "+4,668",
-      "dealer": "+1,124",
-      "total": "+7,189",
-      "foreignRaw": 1397,
-      "totalRaw": 7189
-    }
-  ],
-  "sell": [
-    {
-      "code": "1301",
-      "name": "台塑",
-      "ind": "化工",
-      "foreign": "−4,592",
-      "trust": "−20",
-      "dealer": "−579",
-      "total": "−5,191",
-      "foreignRaw": -4592,
-      "totalRaw": -5191
-    }
-  ]
+  "updatedAt": "2026-07-07",
+  "buy": [],
+  "sell": []
 }
