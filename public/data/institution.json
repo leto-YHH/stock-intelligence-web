@@ -1,5 +1,73 @@
 {
-  "updatedAt": "2026-07-08",
-  "buy": [],
-  "sell": []
+  "updatedAt": "2026-07-09",
+  "buy": [
+    {
+      "code": "2324",
+      "name": "仁寶",
+      "ind": "科技硬體",
+      "foreign": "+10,471",
+      "trust": "+27",
+      "dealer": "+981",
+      "total": "+11,479",
+      "foreignRaw": 10471,
+      "totalRaw": 11479
+    },
+    {
+      "code": "2356",
+      "name": "英業達",
+      "ind": "科技硬體",
+      "foreign": "+3,747",
+      "trust": "+2,054",
+      "dealer": "+11",
+      "total": "+5,812",
+      "foreignRaw": 3747,
+      "totalRaw": 5812
+    },
+    {
+      "code": "2637",
+      "name": "慧洋-KY",
+      "ind": "航運",
+      "foreign": "+3,612",
+      "trust": "+795",
+      "dealer": "+124",
+      "total": "+4,531",
+      "foreignRaw": 3612,
+      "totalRaw": 4531
+    },
+    {
+      "code": "2379",
+      "name": "瑞昱",
+      "ind": "半導體",
+      "foreign": "+629",
+      "trust": "+10",
+      "dealer": "+169",
+      "total": "+808",
+      "foreignRaw": 629,
+      "totalRaw": 808
+    }
+  ],
+  "sell": [
+    {
+      "code": "1301",
+      "name": "台塑",
+      "ind": "化工",
+      "foreign": "−17,427",
+      "trust": "−5",
+      "dealer": "−387",
+      "total": "−17,819",
+      "foreignRaw": -17427,
+      "totalRaw": -17819
+    },
+    {
+      "code": "3231",
+      "name": "緯創",
+      "ind": "科技硬體",
+      "foreign": "−5,414",
+      "trust": "−1,074",
+      "dealer": "−208",
+      "total": "−6,696",
+      "foreignRaw": -5414,
+      "totalRaw": -6696
+    }
+  ]
 }
