@@ -1,16 +1,27 @@
 {
-  "updatedAt": "2026-07-14",
+  "updatedAt": "2026-07-15",
   "buy": [
     {
       "code": "2891",
       "name": "中信金",
       "ind": "金融",
       "foreign": "+18,799",
-      "trust": "+3,086",
+      "trust": "+3,201",
       "dealer": "+3,449",
-      "total": "+25,334",
+      "total": "+25,449",
       "foreignRaw": 18799,
-      "totalRaw": 25334
+      "totalRaw": 25449
+    },
+    {
+      "code": "1326",
+      "name": "台化",
+      "ind": "化工",
+      "foreign": "+13,945",
+      "trust": "+42",
+      "dealer": "+244",
+      "total": "+14,231",
+      "foreignRaw": 13945,
+      "totalRaw": 14231
     },
     {
       "code": "2884",
@@ -22,17 +33,6 @@
       "total": "+9,918",
       "foreignRaw": 2306,
       "totalRaw": 9918
-    },
-    {
-      "code": "1326",
-      "name": "台化",
-      "ind": "化工",
-      "foreign": "+4,752",
-      "trust": "+6",
-      "dealer": "+651",
-      "total": "+5,409",
-      "foreignRaw": 4752,
-      "totalRaw": 5409
     },
     {
       "code": "3231",
@@ -57,39 +57,5 @@
       "totalRaw": 71
     }
   ],
-  "sell": [
-    {
-      "code": "2409",
-      "name": "友達",
-      "ind": "面板",
-      "foreign": "−106,994",
-      "trust": "−4",
-      "dealer": "−9,859",
-      "total": "−116,857",
-      "foreignRaw": -106994,
-      "totalRaw": -116857
-    },
-    {
-      "code": "2353",
-      "name": "宏碁",
-      "ind": "科技硬體",
-      "foreign": "−9,318",
-      "trust": "−1,014",
-      "dealer": "−391",
-      "total": "−10,723",
-      "foreignRaw": -9318,
-      "totalRaw": -10723
-    },
-    {
-      "code": "2615",
-      "name": "萬海",
-      "ind": "航運",
-      "foreign": "−666",
-      "trust": "−1",
-      "dealer": "−178",
-      "total": "−845",
-      "foreignRaw": -666,
-      "totalRaw": -845
-    }
-  ]
+  "sell": []
 }
