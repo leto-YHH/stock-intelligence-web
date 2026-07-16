@@ -1,61 +1,40 @@
 {
-  "updatedAt": "2026-07-15",
+  "updatedAt": "2026-07-16",
   "buy": [
     {
-      "code": "2891",
-      "name": "中信金",
-      "ind": "金融",
-      "foreign": "+18,799",
-      "trust": "+3,201",
-      "dealer": "+3,449",
-      "total": "+25,449",
-      "foreignRaw": 18799,
-      "totalRaw": 25449
-    },
-    {
-      "code": "1326",
-      "name": "台化",
+      "code": "6505",
+      "name": "台塑石化",
       "ind": "化工",
-      "foreign": "+13,945",
-      "trust": "+42",
-      "dealer": "+244",
-      "total": "+14,231",
-      "foreignRaw": 13945,
-      "totalRaw": 14231
+      "foreign": "+3,891",
+      "trust": "+2,519",
+      "dealer": "+3,144",
+      "total": "+9,554",
+      "foreignRaw": 3891,
+      "totalRaw": 9554
     },
     {
       "code": "2884",
       "name": "玉山金",
       "ind": "金融",
-      "foreign": "+2,306",
-      "trust": "+2,188",
-      "dealer": "+5,424",
-      "total": "+9,918",
-      "foreignRaw": 2306,
-      "totalRaw": 9918
-    },
-    {
-      "code": "3231",
-      "name": "緯創",
-      "ind": "科技硬體",
-      "foreign": "+2,463",
-      "trust": "+385",
-      "dealer": "+1,363",
-      "total": "+4,211",
-      "foreignRaw": 2463,
-      "totalRaw": 4211
-    },
-    {
-      "code": "6669",
-      "name": "緯穎",
-      "ind": "科技硬體",
-      "foreign": "+23",
-      "trust": "+25",
-      "dealer": "+23",
-      "total": "+71",
-      "foreignRaw": 23,
-      "totalRaw": 71
+      "foreign": "+7,519",
+      "trust": "+79",
+      "dealer": "+349",
+      "total": "+7,947",
+      "foreignRaw": 7519,
+      "totalRaw": 7947
     }
   ],
-  "sell": []
+  "sell": [
+    {
+      "code": "3006",
+      "name": "晶技",
+      "ind": "光電",
+      "foreign": "−3,367",
+      "trust": "−10",
+      "dealer": "−134",
+      "total": "−3,511",
+      "foreignRaw": -3367,
+      "totalRaw": -3511
+    }
+  ]
 }
