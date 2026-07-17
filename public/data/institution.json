@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16",
+  "updatedAt": "2026-07-17",
   "buy": [
     {
       "code": "6505",
@@ -17,11 +17,11 @@
       "name": "玉山金",
       "ind": "金融",
       "foreign": "+7,519",
-      "trust": "+79",
+      "trust": "+23",
       "dealer": "+349",
-      "total": "+7,947",
+      "total": "+7,891",
       "foreignRaw": 7519,
-      "totalRaw": 7947
+      "totalRaw": 7891
     }
   ],
   "sell": [
@@ -35,6 +35,17 @@
       "total": "−3,511",
       "foreignRaw": -3367,
       "totalRaw": -3511
+    },
+    {
+      "code": "2615",
+      "name": "萬海",
+      "ind": "航運",
+      "foreign": "−262",
+      "trust": "−1",
+      "dealer": "−18",
+      "total": "−281",
+      "foreignRaw": -262,
+      "totalRaw": -281
     }
   ]
 }
