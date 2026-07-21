@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20",
+  "updatedAt": "2026-07-21",
   "buy": [
     {
       "code": "2884",
@@ -39,11 +39,11 @@
       "name": "廣達",
       "ind": "科技硬體",
       "foreign": "+5,295",
-      "trust": "+2,096",
+      "trust": "+2,091",
       "dealer": "+1,300",
-      "total": "+8,691",
+      "total": "+8,686",
       "foreignRaw": 5295,
-      "totalRaw": 8691
+      "totalRaw": 8686
     },
     {
       "code": "2615",
@@ -57,15 +57,26 @@
       "totalRaw": 2693
     },
     {
+      "code": "2454",
+      "name": "聯發科",
+      "ind": "半導體",
+      "foreign": "+663",
+      "trust": "+2",
+      "dealer": "+353",
+      "total": "+1,018",
+      "foreignRaw": 663,
+      "totalRaw": 1018
+    },
+    {
       "code": "6669",
       "name": "緯穎",
       "ind": "科技硬體",
       "foreign": "+181",
-      "trust": "+29",
+      "trust": "+57",
       "dealer": "+32",
-      "total": "+242",
+      "total": "+270",
       "foreignRaw": 181,
-      "totalRaw": 242
+      "totalRaw": 270
     }
   ],
   "sell": [
