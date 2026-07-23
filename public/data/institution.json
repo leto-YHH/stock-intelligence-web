@@ -1,72 +1,51 @@
 {
-  "updatedAt": "2026-07-22",
+  "updatedAt": "2026-07-23",
   "buy": [
     {
-      "code": "2884",
-      "name": "玉山金",
-      "ind": "金融",
-      "foreign": "+22,050",
-      "trust": "+2,710",
-      "dealer": "+1,449",
-      "total": "+26,209",
-      "foreignRaw": 22050,
-      "totalRaw": 26209
-    },
-    {
-      "code": "2615",
-      "name": "萬海",
-      "ind": "航運",
-      "foreign": "+13,922",
-      "trust": "+131",
-      "dealer": "+377",
-      "total": "+14,430",
-      "foreignRaw": 13922,
-      "totalRaw": 14430
+      "code": "1326",
+      "name": "台化",
+      "ind": "化工",
+      "foreign": "+21,829",
+      "trust": "+13",
+      "dealer": "+186",
+      "total": "+22,028",
+      "foreignRaw": 21829,
+      "totalRaw": 22028
     },
     {
       "code": "2324",
       "name": "仁寶",
       "ind": "科技硬體",
-      "foreign": "+10,348",
-      "trust": "+113",
-      "dealer": "+1,138",
-      "total": "+11,599",
-      "foreignRaw": 10348,
-      "totalRaw": 11599
+      "foreign": "+7,039",
+      "trust": "+22",
+      "dealer": "+98",
+      "total": "+7,159",
+      "foreignRaw": 7039,
+      "totalRaw": 7159
     },
     {
-      "code": "2382",
-      "name": "廣達",
+      "code": "6669",
+      "name": "緯穎",
       "ind": "科技硬體",
-      "foreign": "+5,936",
-      "trust": "+969",
-      "dealer": "+825",
-      "total": "+7,730",
-      "foreignRaw": 5936,
-      "totalRaw": 7730
-    },
-    {
-      "code": "2330",
-      "name": "台積電",
-      "ind": "半導體",
-      "foreign": "+4,975",
-      "trust": "+973",
-      "dealer": "+213",
-      "total": "+6,161",
-      "foreignRaw": 4975,
-      "totalRaw": 6161
-    },
-    {
-      "code": "2637",
-      "name": "慧洋-KY",
-      "ind": "航運",
-      "foreign": "+41",
-      "trust": "+380",
-      "dealer": "+11",
-      "total": "+432",
-      "foreignRaw": 41,
-      "totalRaw": 432
+      "foreign": "+188",
+      "trust": "+116",
+      "dealer": "+48",
+      "total": "+352",
+      "foreignRaw": 188,
+      "totalRaw": 352
     }
   ],
-  "sell": []
+  "sell": [
+    {
+      "code": "6282",
+      "name": "康舒",
+      "ind": "科技硬體",
+      "foreign": "−263",
+      "trust": "−2",
+      "dealer": "−306",
+      "total": "−571",
+      "foreignRaw": -263,
+      "totalRaw": -571
+    }
+  ]
 }
