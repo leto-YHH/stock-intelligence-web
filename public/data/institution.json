@@ -1,51 +1,73 @@
 {
-  "updatedAt": "2026-07-23",
+  "updatedAt": "2026-07-24",
   "buy": [
     {
-      "code": "1326",
-      "name": "台化",
-      "ind": "化工",
-      "foreign": "+21,829",
-      "trust": "+13",
-      "dealer": "+186",
-      "total": "+22,028",
-      "foreignRaw": 21829,
-      "totalRaw": 22028
+      "code": "3231",
+      "name": "緯創",
+      "ind": "科技硬體",
+      "foreign": "+79,016",
+      "trust": "+1,307",
+      "dealer": "+2,397",
+      "total": "+82,720",
+      "foreignRaw": 79016,
+      "totalRaw": 82720
     },
     {
       "code": "2324",
       "name": "仁寶",
       "ind": "科技硬體",
-      "foreign": "+7,039",
-      "trust": "+22",
-      "dealer": "+98",
-      "total": "+7,159",
-      "foreignRaw": 7039,
-      "totalRaw": 7159
+      "foreign": "+11,036",
+      "trust": "+94",
+      "dealer": "+954",
+      "total": "+12,084",
+      "foreignRaw": 11036,
+      "totalRaw": 12084
     },
     {
-      "code": "6669",
-      "name": "緯穎",
-      "ind": "科技硬體",
-      "foreign": "+188",
-      "trust": "+116",
-      "dealer": "+48",
-      "total": "+352",
-      "foreignRaw": 188,
-      "totalRaw": 352
+      "code": "2409",
+      "name": "友達",
+      "ind": "面板",
+      "foreign": "+9,800",
+      "trust": "+19",
+      "dealer": "+23",
+      "total": "+9,842",
+      "foreignRaw": 9800,
+      "totalRaw": 9842
+    },
+    {
+      "code": "2454",
+      "name": "聯發科",
+      "ind": "半導體",
+      "foreign": "+564",
+      "trust": "+259",
+      "dealer": "+187",
+      "total": "+1,010",
+      "foreignRaw": 564,
+      "totalRaw": 1010
     }
   ],
   "sell": [
     {
-      "code": "6282",
-      "name": "康舒",
-      "ind": "科技硬體",
-      "foreign": "−263",
-      "trust": "−2",
-      "dealer": "−306",
-      "total": "−571",
-      "foreignRaw": -263,
-      "totalRaw": -571
+      "code": "2609",
+      "name": "陽明",
+      "ind": "航運",
+      "foreign": "−4,148",
+      "trust": "−4",
+      "dealer": "−239",
+      "total": "−4,391",
+      "foreignRaw": -4148,
+      "totalRaw": -4391
+    },
+    {
+      "code": "3006",
+      "name": "晶技",
+      "ind": "光電",
+      "foreign": "−223",
+      "trust": "−80",
+      "dealer": "−113",
+      "total": "−416",
+      "foreignRaw": -223,
+      "totalRaw": -416
     }
   ]
 }
