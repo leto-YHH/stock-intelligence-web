@@ -1,17 +1,6 @@
 {
-  "updatedAt": "2026-08-03",
+  "updatedAt": "2026-08-04",
   "buy": [
-    {
-      "code": "3231",
-      "name": "緯創",
-      "ind": "科技硬體",
-      "foreign": "+13,991",
-      "trust": "+9,288",
-      "dealer": "+2,026",
-      "total": "+25,305",
-      "foreignRaw": 13991,
-      "totalRaw": 25305
-    },
     {
       "code": "2324",
       "name": "仁寶",
@@ -24,60 +13,50 @@
       "totalRaw": 11193
     },
     {
-      "code": "3711",
-      "name": "日月光投控",
-      "ind": "半導體",
-      "foreign": "+5,452",
-      "trust": "+382",
-      "dealer": "+279",
-      "total": "+6,113",
-      "foreignRaw": 5452,
-      "totalRaw": 6113
-    },
-    {
-      "code": "6282",
-      "name": "康舒",
+      "code": "2356",
+      "name": "英業達",
       "ind": "科技硬體",
-      "foreign": "+1,898",
-      "trust": "+338",
-      "dealer": "+412",
-      "total": "+2,648",
-      "foreignRaw": 1898,
-      "totalRaw": 2648
+      "foreign": "+8,852",
+      "trust": "+707",
+      "dealer": "+273",
+      "total": "+9,832",
+      "foreignRaw": 8852,
+      "totalRaw": 9832
     },
     {
       "code": "2454",
       "name": "聯發科",
       "ind": "半導體",
       "foreign": "+1,146",
-      "trust": "+178",
+      "trust": "+174",
       "dealer": "+128",
-      "total": "+1,452",
+      "total": "+1,448",
       "foreignRaw": 1146,
-      "totalRaw": 1452
-    },
-    {
-      "code": "2379",
-      "name": "瑞昱",
-      "ind": "半導體",
-      "foreign": "+327",
-      "trust": "+110",
-      "dealer": "+69",
-      "total": "+506",
-      "foreignRaw": 327,
-      "totalRaw": 506
-    },
-    {
-      "code": "3443",
-      "name": "創意",
-      "ind": "光電",
-      "foreign": "+272",
-      "trust": "+11",
-      "dealer": "+55",
-      "total": "+338",
-      "foreignRaw": 272,
-      "totalRaw": 338
+      "totalRaw": 1448
     }
   ],
-  "sell": []
+  "sell": [
+    {
+      "code": "6505",
+      "name": "台塑石化",
+      "ind": "化工",
+      "foreign": "−1,030",
+      "trust": "−55",
+      "dealer": "−1,085",
+      "total": "−2,170",
+      "foreignRaw": -1030,
+      "totalRaw": -2170
+    },
+    {
+      "code": "2603",
+      "name": "長榮",
+      "ind": "航運",
+      "foreign": "−538",
+      "trust": "−47",
+      "dealer": "−132",
+      "total": "−717",
+      "foreignRaw": -538,
+      "totalRaw": -717
+    }
+  ]
 }
