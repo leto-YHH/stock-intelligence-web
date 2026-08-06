@@ -1,84 +1,61 @@
 {
-  "updatedAt": "2026-08-05",
-  "buy": [
-    {
-      "code": "2324",
-      "name": "仁寶",
-      "ind": "科技硬體",
-      "foreign": "+13,719",
-      "trust": "+417",
-      "dealer": "+73",
-      "total": "+14,209",
-      "foreignRaw": 13719,
-      "totalRaw": 14209
-    },
-    {
-      "code": "2356",
-      "name": "英業達",
-      "ind": "科技硬體",
-      "foreign": "+8,852",
-      "trust": "+707",
-      "dealer": "+273",
-      "total": "+9,832",
-      "foreignRaw": 8852,
-      "totalRaw": 9832
-    }
-  ],
+  "updatedAt": "2026-08-06",
+  "buy": [],
   "sell": [
     {
-      "code": "2303",
-      "name": "聯電",
-      "ind": "半導體",
-      "foreign": "−1,700",
-      "trust": "−4,974",
-      "dealer": "−2,085",
-      "total": "−8,759",
-      "foreignRaw": -1700,
-      "totalRaw": -8759
-    },
-    {
-      "code": "2884",
-      "name": "玉山金",
-      "ind": "金融",
-      "foreign": "−5,842",
-      "trust": "−443",
-      "dealer": "−1,073",
-      "total": "−7,358",
-      "foreignRaw": -5842,
-      "totalRaw": -7358
-    },
-    {
-      "code": "2382",
-      "name": "廣達",
+      "code": "3231",
+      "name": "緯創",
       "ind": "科技硬體",
-      "foreign": "−2,550",
-      "trust": "−682",
-      "dealer": "−433",
-      "total": "−3,665",
-      "foreignRaw": -2550,
-      "totalRaw": -3665
+      "foreign": "−10,143",
+      "trust": "−38",
+      "dealer": "−900",
+      "total": "−11,081",
+      "foreignRaw": -10143,
+      "totalRaw": -11081
     },
     {
-      "code": "6505",
-      "name": "台塑石化",
-      "ind": "化工",
-      "foreign": "−1,030",
-      "trust": "−55",
-      "dealer": "−1,085",
-      "total": "−2,170",
-      "foreignRaw": -1030,
-      "totalRaw": -2170
+      "code": "2881",
+      "name": "富邦金",
+      "ind": "金融",
+      "foreign": "−2,024",
+      "trust": "−3,185",
+      "dealer": "−87",
+      "total": "−5,296",
+      "foreignRaw": -2024,
+      "totalRaw": -5296
     },
     {
-      "code": "2603",
-      "name": "長榮",
+      "code": "2330",
+      "name": "台積電",
+      "ind": "半導體",
+      "foreign": "−4,012",
+      "trust": "−124",
+      "dealer": "−584",
+      "total": "−4,720",
+      "foreignRaw": -4012,
+      "totalRaw": -4720
+    },
+    {
+      "code": "2454",
+      "name": "聯發科",
+      "ind": "半導體",
+      "foreign": "−994",
+      "trust": "−81",
+      "dealer": "−89",
+      "total": "−1,164",
+      "foreignRaw": -994,
+      "totalRaw": -1164
+    },
+    {
+      "code": "2615",
+      "name": "萬海",
       "ind": "航運",
-      "foreign": "−538",
-      "trust": "−55",
-      "dealer": "−132",
-      "total": "−725",
-      "foreignRaw": -538,
-      "totalRaw": -725
+      "foreign": "−651",
+      "trust": "−5",
+      "dealer": "−234",
+      "total": "−890",
+      "foreignRaw": -651,
+      "totalRaw": -890
     }
   ]
 }
