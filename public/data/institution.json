@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06",
+  "updatedAt": "2026-08-07",
   "buy": [],
   "sell": [
     {
@@ -29,22 +29,22 @@
       "name": "台積電",
       "ind": "半導體",
       "foreign": "−4,012",
-      "trust": "−124",
+      "trust": "−83",
       "dealer": "−584",
-      "total": "−4,720",
+      "total": "−4,679",
       "foreignRaw": -4012,
-      "totalRaw": -4720
+      "totalRaw": -4679
     },
     {
       "code": "2454",
       "name": "聯發科",
       "ind": "半導體",
       "foreign": "−994",
-      "trust": "−81",
+      "trust": "−98",
       "dealer": "−89",
-      "total": "−1,164",
+      "total": "−1,181",
       "foreignRaw": -994,
-      "totalRaw": -1164
+      "totalRaw": -1181
     },
     {
       "code": "2615",
