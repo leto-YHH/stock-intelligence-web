@@ -1,73 +1,40 @@
 {
-  "updatedAt": "2026-08-31",
+  "updatedAt": "2026-09-23",
   "buy": [
-    {
-      "code": "1303",
-      "name": "南亞",
-      "ind": "化工",
-      "foreign": "+10,702",
-      "trust": "+1,191",
-      "dealer": "+1,040",
-      "total": "+12,933",
-      "foreignRaw": 10702,
-      "totalRaw": 12933
-    },
-    {
-      "code": "2356",
-      "name": "英業達",
-      "ind": "科技硬體",
-      "foreign": "+5,121",
-      "trust": "+775",
-      "dealer": "+779",
-      "total": "+6,675",
-      "foreignRaw": 5121,
-      "totalRaw": 6675
-    },
     {
       "code": "6505",
       "name": "台塑石化",
       "ind": "化工",
-      "foreign": "+2,615",
-      "trust": "+1",
-      "dealer": "+256",
-      "total": "+2,872",
-      "foreignRaw": 2615,
-      "totalRaw": 2872
+      "foreign": "+3,215",
+      "trust": "+309",
+      "dealer": "+103",
+      "total": "+3,627",
+      "foreignRaw": 3215,
+      "totalRaw": 3627
+    },
+    {
+      "code": "2637",
+      "name": "慧洋-KY",
+      "ind": "航運",
+      "foreign": "+136",
+      "trust": "+2",
+      "dealer": "+8",
+      "total": "+146",
+      "foreignRaw": 136,
+      "totalRaw": 146
     }
   ],
   "sell": [
     {
-      "code": "3711",
-      "name": "日月光投控",
-      "ind": "半導體",
-      "foreign": "−8,939",
-      "trust": "−1,649",
-      "dealer": "−445",
-      "total": "−11,033",
-      "foreignRaw": -8939,
-      "totalRaw": -11033
-    },
-    {
-      "code": "2330",
-      "name": "台積電",
-      "ind": "半導體",
-      "foreign": "−4,555",
-      "trust": "−962",
-      "dealer": "−180",
-      "total": "−5,697",
-      "foreignRaw": -4555,
-      "totalRaw": -5697
-    },
-    {
-      "code": "2454",
-      "name": "聯發科",
-      "ind": "半導體",
-      "foreign": "−614",
-      "trust": "−330",
-      "dealer": "−13",
-      "total": "−957",
-      "foreignRaw": -614,
-      "totalRaw": -957
+      "code": "2615",
+      "name": "萬海",
+      "ind": "航運",
+      "foreign": "−2,113",
+      "trust": "−141",
+      "dealer": "−300",
+      "total": "−2,554",
+      "foreignRaw": -2113,
+      "totalRaw": -2554
     }
   ]
 }
