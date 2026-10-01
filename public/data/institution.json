@@ -1,128 +1,83 @@
 {
-  "updatedAt": "2026-09-30",
+  "updatedAt": "2026-10-01",
   "buy": [
     {
-      "code": "2409",
-      "name": "友達",
-      "ind": "面板",
-      "foreign": "+67,780",
-      "trust": "+150",
-      "dealer": "+2,989",
-      "total": "+70,919",
-      "foreignRaw": 67780,
-      "totalRaw": 70919
-    },
-    {
-      "code": "1301",
-      "name": "台塑",
-      "ind": "化工",
-      "foreign": "+29,049",
-      "trust": "+486",
-      "dealer": "+1,046",
-      "total": "+30,581",
-      "foreignRaw": 29049,
-      "totalRaw": 30581
-    },
-    {
-      "code": "1303",
-      "name": "南亞",
-      "ind": "化工",
-      "foreign": "+2,373",
-      "trust": "+6,195",
-      "dealer": "+1,132",
-      "total": "+9,700",
-      "foreignRaw": 2373,
-      "totalRaw": 9700
-    },
-    {
-      "code": "6505",
-      "name": "台塑石化",
-      "ind": "化工",
-      "foreign": "+3,074",
-      "trust": "+6,162",
-      "dealer": "+288",
-      "total": "+9,524",
-      "foreignRaw": 3074,
-      "totalRaw": 9524
-    },
-    {
-      "code": "2609",
-      "name": "陽明",
-      "ind": "航運",
-      "foreign": "+6,595",
-      "trust": "+44",
-      "dealer": "+175",
-      "total": "+6,814",
-      "foreignRaw": 6595,
-      "totalRaw": 6814
-    },
-    {
-      "code": "2353",
-      "name": "宏碁",
+      "code": "3231",
+      "name": "緯創",
       "ind": "科技硬體",
-      "foreign": "+1,724",
-      "trust": "+92",
-      "dealer": "+217",
-      "total": "+2,033",
-      "foreignRaw": 1724,
-      "totalRaw": 2033
+      "foreign": "+29,330",
+      "trust": "+554",
+      "dealer": "+750",
+      "total": "+30,634",
+      "foreignRaw": 29330,
+      "totalRaw": 30634
     },
     {
-      "code": "2330",
-      "name": "台積電",
+      "code": "2303",
+      "name": "聯電",
       "ind": "半導體",
-      "foreign": "+702",
-      "trust": "+761",
-      "dealer": "+399",
-      "total": "+1,862",
-      "foreignRaw": 702,
-      "totalRaw": 1862
-    },
-    {
-      "code": "2603",
-      "name": "長榮",
-      "ind": "航運",
-      "foreign": "+312",
-      "trust": "+360",
-      "dealer": "+88",
-      "total": "+760",
-      "foreignRaw": 312,
-      "totalRaw": 760
-    }
-  ],
-  "sell": [
-    {
-      "code": "6282",
-      "name": "康舒",
-      "ind": "科技硬體",
-      "foreign": "−976",
-      "trust": "−32",
-      "dealer": "−109",
-      "total": "−1,117",
-      "foreignRaw": -976,
-      "totalRaw": -1117
+      "foreign": "+25,460",
+      "trust": "+2,495",
+      "dealer": "+1,767",
+      "total": "+29,722",
+      "foreignRaw": 25460,
+      "totalRaw": 29722
     },
     {
       "code": "2327",
       "name": "國巨",
       "ind": "光電",
-      "foreign": "−105",
-      "trust": "−556",
-      "dealer": "−24",
-      "total": "−685",
-      "foreignRaw": -105,
-      "totalRaw": -685
+      "foreign": "+23,393",
+      "trust": "+1,400",
+      "dealer": "+1,523",
+      "total": "+26,316",
+      "foreignRaw": 23393,
+      "totalRaw": 26316
     },
     {
-      "code": "6669",
-      "name": "緯穎",
+      "code": "2330",
+      "name": "台積電",
+      "ind": "半導體",
+      "foreign": "+3,090",
+      "trust": "+596",
+      "dealer": "+602",
+      "total": "+4,288",
+      "foreignRaw": 3090,
+      "totalRaw": 4288
+    },
+    {
+      "code": "2353",
+      "name": "宏碁",
       "ind": "科技硬體",
-      "foreign": "−589",
-      "trust": "−10",
-      "dealer": "−26",
-      "total": "−625",
-      "foreignRaw": -589,
-      "totalRaw": -625
+      "foreign": "+2,227",
+      "trust": "+111",
+      "dealer": "+259",
+      "total": "+2,597",
+      "foreignRaw": 2227,
+      "totalRaw": 2597
+    },
+    {
+      "code": "2379",
+      "name": "瑞昱",
+      "ind": "半導體",
+      "foreign": "+739",
+      "trust": "+375",
+      "dealer": "+99",
+      "total": "+1,213",
+      "foreignRaw": 739,
+      "totalRaw": 1213
+    },
+    {
+      "code": "3711",
+      "name": "日月光投控",
+      "ind": "半導體",
+      "foreign": "+457",
+      "trust": "+227",
+      "dealer": "+56",
+      "total": "+740",
+      "foreignRaw": 457,
+      "totalRaw": 740
     }
-  ]
+  ],
+  "sell": []
 }
