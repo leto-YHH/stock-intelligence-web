@@ -1,84 +1,51 @@
 {
-  "updatedAt": "2026-11-02",
+  "updatedAt": "2026-11-03",
   "buy": [
     {
-      "code": "1301",
-      "name": "台塑",
-      "ind": "化工",
-      "foreign": "+1,422",
-      "trust": "+878",
-      "dealer": "+385",
-      "total": "+2,685",
-      "foreignRaw": 1422,
-      "totalRaw": 2685
-    },
-    {
-      "code": "1326",
-      "name": "台化",
-      "ind": "化工",
-      "foreign": "+371",
-      "trust": "+1,755",
-      "dealer": "+56",
-      "total": "+2,182",
-      "foreignRaw": 371,
-      "totalRaw": 2182
-    },
-    {
-      "code": "2603",
-      "name": "長榮",
-      "ind": "航運",
-      "foreign": "+344",
-      "trust": "+1,550",
-      "dealer": "+126",
-      "total": "+2,020",
-      "foreignRaw": 344,
-      "totalRaw": 2020
-    },
-    {
-      "code": "2382",
-      "name": "廣達",
-      "ind": "科技硬體",
-      "foreign": "+590",
-      "trust": "+419",
-      "dealer": "+202",
-      "total": "+1,211",
-      "foreignRaw": 590,
-      "totalRaw": 1211
-    },
-    {
-      "code": "6282",
-      "name": "康舒",
-      "ind": "科技硬體",
-      "foreign": "+544",
-      "trust": "+2",
-      "dealer": "+93",
-      "total": "+639",
-      "foreignRaw": 544,
-      "totalRaw": 639
+      "code": "2886",
+      "name": "兆豐金",
+      "ind": "金融",
+      "foreign": "+6,602",
+      "trust": "+3,020",
+      "dealer": "+3,400",
+      "total": "+13,022",
+      "foreignRaw": 6602,
+      "totalRaw": 13022
     }
   ],
   "sell": [
     {
-      "code": "3006",
-      "name": "晶技",
-      "ind": "光電",
-      "foreign": "−3,473",
-      "trust": "−230",
-      "dealer": "−43",
-      "total": "−3,746",
-      "foreignRaw": -3473,
-      "totalRaw": -3746
+      "code": "1326",
+      "name": "台化",
+      "ind": "化工",
+      "foreign": "−11,346",
+      "trust": "−316",
+      "dealer": "−268",
+      "total": "−11,930",
+      "foreignRaw": -11346,
+      "totalRaw": -11930
     },
     {
-      "code": "6669",
-      "name": "緯穎",
-      "ind": "科技硬體",
-      "foreign": "−255",
-      "trust": "−213",
-      "dealer": "−6",
-      "total": "−474",
-      "foreignRaw": -255,
-      "totalRaw": -474
+      "code": "2327",
+      "name": "國巨",
+      "ind": "光電",
+      "foreign": "−5,961",
+      "trust": "−2,205",
+      "dealer": "−477",
+      "total": "−8,643",
+      "foreignRaw": -5961,
+      "totalRaw": -8643
+    },
+    {
+      "code": "3008",
+      "name": "大立光",
+      "ind": "光電",
+      "foreign": "−9",
+      "trust": "−24",
+      "dealer": "−165",
+      "total": "−198",
+      "foreignRaw": -9,
+      "totalRaw": -198
     }
   ]
 }
