@@ -1,51 +1,73 @@
 {
-  "updatedAt": "2026-11-03",
+  "updatedAt": "2026-11-04",
   "buy": [
     {
-      "code": "2886",
-      "name": "兆豐金",
+      "code": "2884",
+      "name": "玉山金",
       "ind": "金融",
-      "foreign": "+6,602",
-      "trust": "+3,020",
-      "dealer": "+3,400",
-      "total": "+13,022",
-      "foreignRaw": 6602,
-      "totalRaw": 13022
+      "foreign": "+1,453",
+      "trust": "+1,108",
+      "dealer": "+4,458",
+      "total": "+7,019",
+      "foreignRaw": 1453,
+      "totalRaw": 7019
+    },
+    {
+      "code": "2603",
+      "name": "長榮",
+      "ind": "航運",
+      "foreign": "+1,070",
+      "trust": "+319",
+      "dealer": "+528",
+      "total": "+1,917",
+      "foreignRaw": 1070,
+      "totalRaw": 1917
+    },
+    {
+      "code": "6669",
+      "name": "緯穎",
+      "ind": "科技硬體",
+      "foreign": "+66",
+      "trust": "+59",
+      "dealer": "+41",
+      "total": "+166",
+      "foreignRaw": 66,
+      "totalRaw": 166
     }
   ],
   "sell": [
     {
-      "code": "1326",
-      "name": "台化",
-      "ind": "化工",
-      "foreign": "−11,346",
-      "trust": "−316",
-      "dealer": "−268",
-      "total": "−11,930",
-      "foreignRaw": -11346,
-      "totalRaw": -11930
+      "code": "2324",
+      "name": "仁寶",
+      "ind": "科技硬體",
+      "foreign": "−8,661",
+      "trust": "−490",
+      "dealer": "−338",
+      "total": "−9,489",
+      "foreignRaw": -8661,
+      "totalRaw": -9489
     },
     {
-      "code": "2327",
-      "name": "國巨",
-      "ind": "光電",
-      "foreign": "−5,961",
-      "trust": "−2,205",
-      "dealer": "−477",
-      "total": "−8,643",
-      "foreignRaw": -5961,
-      "totalRaw": -8643
+      "code": "2353",
+      "name": "宏碁",
+      "ind": "科技硬體",
+      "foreign": "−4,070",
+      "trust": "−292",
+      "dealer": "−598",
+      "total": "−4,960",
+      "foreignRaw": -4070,
+      "totalRaw": -4960
     },
     {
       "code": "3008",
       "name": "大立光",
       "ind": "光電",
-      "foreign": "−9",
-      "trust": "−24",
-      "dealer": "−165",
-      "total": "−198",
-      "foreignRaw": -9,
-      "totalRaw": -198
+      "foreign": "−64",
+      "trust": "−38",
+      "dealer": "−21",
+      "total": "−123",
+      "foreignRaw": -64,
+      "totalRaw": -123
     }
   ]
 }
