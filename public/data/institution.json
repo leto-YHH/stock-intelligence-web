@@ -1,73 +1,17 @@
 {
-  "updatedAt": "2026-11-04",
+  "updatedAt": "2026-11-05",
   "buy": [
-    {
-      "code": "2884",
-      "name": "玉山金",
-      "ind": "金融",
-      "foreign": "+1,453",
-      "trust": "+1,108",
-      "dealer": "+4,458",
-      "total": "+7,019",
-      "foreignRaw": 1453,
-      "totalRaw": 7019
-    },
-    {
-      "code": "2603",
-      "name": "長榮",
-      "ind": "航運",
-      "foreign": "+1,070",
-      "trust": "+319",
-      "dealer": "+528",
-      "total": "+1,917",
-      "foreignRaw": 1070,
-      "totalRaw": 1917
-    },
-    {
-      "code": "6669",
-      "name": "緯穎",
-      "ind": "科技硬體",
-      "foreign": "+66",
-      "trust": "+59",
-      "dealer": "+41",
-      "total": "+166",
-      "foreignRaw": 66,
-      "totalRaw": 166
-    }
-  ],
-  "sell": [
-    {
-      "code": "2324",
-      "name": "仁寶",
-      "ind": "科技硬體",
-      "foreign": "−8,661",
-      "trust": "−490",
-      "dealer": "−338",
-      "total": "−9,489",
-      "foreignRaw": -8661,
-      "totalRaw": -9489
-    },
     {
       "code": "2353",
       "name": "宏碁",
       "ind": "科技硬體",
-      "foreign": "−4,070",
-      "trust": "−292",
-      "dealer": "−598",
-      "total": "−4,960",
-      "foreignRaw": -4070,
-      "totalRaw": -4960
-    },
-    {
-      "code": "3008",
-      "name": "大立光",
-      "ind": "光電",
-      "foreign": "−64",
-      "trust": "−38",
-      "dealer": "−21",
-      "total": "−123",
-      "foreignRaw": -64,
-      "totalRaw": -123
+      "foreign": "+3,595",
+      "trust": "+23",
+      "dealer": "+359",
+      "total": "+3,977",
+      "foreignRaw": 3595,
+      "totalRaw": 3977
     }
-  ]
+  ],
+  "sell": []
 }
