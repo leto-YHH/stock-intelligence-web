@@ -1,16 +1,49 @@
 {
-  "updatedAt": "2026-11-05",
+  "updatedAt": "2026-11-06",
   "buy": [
+    {
+      "code": "2356",
+      "name": "英業達",
+      "ind": "科技硬體",
+      "foreign": "+2,315",
+      "trust": "+788",
+      "dealer": "+112",
+      "total": "+3,215",
+      "foreignRaw": 2315,
+      "totalRaw": 3215
+    },
     {
       "code": "2353",
       "name": "宏碁",
       "ind": "科技硬體",
-      "foreign": "+3,595",
-      "trust": "+23",
-      "dealer": "+359",
-      "total": "+3,977",
-      "foreignRaw": 3595,
-      "totalRaw": 3977
+      "foreign": "+2,033",
+      "trust": "+13",
+      "dealer": "+642",
+      "total": "+2,688",
+      "foreignRaw": 2033,
+      "totalRaw": 2688
+    },
+    {
+      "code": "1301",
+      "name": "台塑",
+      "ind": "化工",
+      "foreign": "+1,590",
+      "trust": "+350",
+      "dealer": "+370",
+      "total": "+2,310",
+      "foreignRaw": 1590,
+      "totalRaw": 2310
+    },
+    {
+      "code": "2615",
+      "name": "萬海",
+      "ind": "航運",
+      "foreign": "+1,547",
+      "trust": "+7",
+      "dealer": "+104",
+      "total": "+1,658",
+      "foreignRaw": 1547,
+      "totalRaw": 1658
     }
   ],
   "sell": []
