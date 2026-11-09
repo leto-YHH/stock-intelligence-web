@@ -1,49 +1,71 @@
 {
-  "updatedAt": "2026-11-06",
+  "updatedAt": "2026-11-09",
   "buy": [
+    {
+      "code": "2891",
+      "name": "中信金",
+      "ind": "金融",
+      "foreign": "+4,551",
+      "trust": "+7,645",
+      "dealer": "+1,158",
+      "total": "+13,354",
+      "foreignRaw": 4551,
+      "totalRaw": 13354
+    },
+    {
+      "code": "2886",
+      "name": "兆豐金",
+      "ind": "金融",
+      "foreign": "+4,438",
+      "trust": "+2,084",
+      "dealer": "+1,962",
+      "total": "+8,484",
+      "foreignRaw": 4438,
+      "totalRaw": 8484
+    },
+    {
+      "code": "1303",
+      "name": "南亞",
+      "ind": "化工",
+      "foreign": "+609",
+      "trust": "+709",
+      "dealer": "+212",
+      "total": "+1,530",
+      "foreignRaw": 609,
+      "totalRaw": 1530
+    },
     {
       "code": "2356",
       "name": "英業達",
       "ind": "科技硬體",
-      "foreign": "+2,315",
-      "trust": "+788",
-      "dealer": "+112",
-      "total": "+3,215",
-      "foreignRaw": 2315,
-      "totalRaw": 3215
+      "foreign": "+562",
+      "trust": "+408",
+      "dealer": "+466",
+      "total": "+1,436",
+      "foreignRaw": 562,
+      "totalRaw": 1436
     },
     {
-      "code": "2353",
-      "name": "宏碁",
-      "ind": "科技硬體",
-      "foreign": "+2,033",
-      "trust": "+13",
-      "dealer": "+642",
-      "total": "+2,688",
-      "foreignRaw": 2033,
-      "totalRaw": 2688
-    },
-    {
-      "code": "1301",
-      "name": "台塑",
-      "ind": "化工",
-      "foreign": "+1,590",
-      "trust": "+350",
-      "dealer": "+370",
-      "total": "+2,310",
-      "foreignRaw": 1590,
-      "totalRaw": 2310
-    },
-    {
-      "code": "2615",
-      "name": "萬海",
+      "code": "2637",
+      "name": "慧洋-KY",
       "ind": "航運",
-      "foreign": "+1,547",
-      "trust": "+7",
-      "dealer": "+104",
-      "total": "+1,658",
-      "foreignRaw": 1547,
-      "totalRaw": 1658
+      "foreign": "+694",
+      "trust": "+3",
+      "dealer": "+18",
+      "total": "+715",
+      "foreignRaw": 694,
+      "totalRaw": 715
+    },
+    {
+      "code": "2379",
+      "name": "瑞昱",
+      "ind": "半導體",
+      "foreign": "+51",
+      "trust": "+210",
+      "dealer": "+80",
+      "total": "+341",
+      "foreignRaw": 51,
+      "totalRaw": 341
     }
   ],
   "sell": []
