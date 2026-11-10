@@ -1,71 +1,27 @@
 {
-  "updatedAt": "2026-11-09",
+  "updatedAt": "2026-11-10",
   "buy": [
-    {
-      "code": "2891",
-      "name": "中信金",
-      "ind": "金融",
-      "foreign": "+4,551",
-      "trust": "+7,645",
-      "dealer": "+1,158",
-      "total": "+13,354",
-      "foreignRaw": 4551,
-      "totalRaw": 13354
-    },
-    {
-      "code": "2886",
-      "name": "兆豐金",
-      "ind": "金融",
-      "foreign": "+4,438",
-      "trust": "+2,084",
-      "dealer": "+1,962",
-      "total": "+8,484",
-      "foreignRaw": 4438,
-      "totalRaw": 8484
-    },
     {
       "code": "1303",
       "name": "南亞",
       "ind": "化工",
-      "foreign": "+609",
-      "trust": "+709",
-      "dealer": "+212",
-      "total": "+1,530",
-      "foreignRaw": 609,
-      "totalRaw": 1530
-    },
-    {
-      "code": "2356",
-      "name": "英業達",
-      "ind": "科技硬體",
-      "foreign": "+562",
-      "trust": "+408",
-      "dealer": "+466",
-      "total": "+1,436",
-      "foreignRaw": 562,
-      "totalRaw": 1436
-    },
-    {
-      "code": "2637",
-      "name": "慧洋-KY",
-      "ind": "航運",
-      "foreign": "+694",
-      "trust": "+3",
-      "dealer": "+18",
-      "total": "+715",
-      "foreignRaw": 694,
-      "totalRaw": 715
+      "foreign": "+8,221",
+      "trust": "+9,864",
+      "dealer": "+123",
+      "total": "+18,208",
+      "foreignRaw": 8221,
+      "totalRaw": 18208
     },
     {
       "code": "2379",
       "name": "瑞昱",
       "ind": "半導體",
-      "foreign": "+51",
-      "trust": "+210",
-      "dealer": "+80",
-      "total": "+341",
-      "foreignRaw": 51,
-      "totalRaw": 341
+      "foreign": "+175",
+      "trust": "+13",
+      "dealer": "+102",
+      "total": "+290",
+      "foreignRaw": 175,
+      "totalRaw": 290
     }
   ],
   "sell": []
