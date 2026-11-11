@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-10",
+  "updatedAt": "2026-11-11",
   "periods": {
     "1m": [
       {
         "rank": 1,
         "ind": "航運",
-        "score": 83,
+        "score": 82,
         "scores": {
-          "capital": 100,
+          "capital": 94,
           "sentiment": 50,
-          "rs": 92,
-          "us": 90,
-          "fund": 74,
-          "liquidity": 48
+          "rs": 86,
+          "us": 100,
+          "fund": 75,
+          "liquidity": 53
         },
         "stocks": [
           {
             "code": "2637",
             "name": "慧洋-KY",
-            "price": 98.8,
+            "price": 97.3,
             "winRate": "77%",
             "avgReturn": "+4.9%",
             "samples": 238,
@@ -28,42 +28,42 @@
           {
             "code": "2603",
             "name": "長榮",
-            "price": 255.5,
-            "winRate": "64%",
+            "price": 257.5,
+            "winRate": "65%",
             "avgReturn": "+4.1%",
             "samples": 238,
             "tags": [],
-            "logic": "勝率 64%，平均報酬 +4.1%，穩定度 0%"
+            "logic": "勝率 65%，平均報酬 +4.1%，穩定度 0%"
           }
         ]
       },
       {
         "rank": 2,
         "ind": "金融",
-        "score": 79,
+        "score": 69,
         "scores": {
-          "capital": 96,
-          "sentiment": 50,
-          "rs": 97,
-          "us": 100,
+          "capital": 100,
+          "sentiment": 54,
+          "rs": 100,
+          "us": 40,
           "fund": 0,
-          "liquidity": 58
+          "liquidity": 56
         },
         "stocks": [
           {
             "code": "2891",
             "name": "中信金",
-            "price": 73.7,
-            "winRate": "83%",
+            "price": 74.7,
+            "winRate": "84%",
             "avgReturn": "+5.9%",
             "samples": 238,
             "tags": [],
-            "logic": "勝率 83%，平均報酬 +5.9%，穩定度 0%"
+            "logic": "勝率 84%，平均報酬 +5.9%，穩定度 0%"
           },
           {
             "code": "2890",
             "name": "永豐金",
-            "price": 42.1,
+            "price": 42.8,
             "winRate": "80%",
             "avgReturn": "+5.8%",
             "samples": 238,
@@ -73,107 +73,107 @@
           {
             "code": "2882",
             "name": "國泰金",
-            "price": 110.0,
-            "winRate": "76%",
+            "price": 113.0,
+            "winRate": "77%",
             "avgReturn": "+6.1%",
             "samples": 238,
             "tags": [],
-            "logic": "勝率 76%，平均報酬 +6.1%，穩定度 0%"
+            "logic": "勝率 77%，平均報酬 +6.1%，穩定度 0%"
           }
         ]
       },
       {
         "rank": 3,
         "ind": "化工原物料",
-        "score": 62,
+        "score": 67,
         "scores": {
-          "capital": 75,
+          "capital": 74,
           "sentiment": 50,
-          "rs": 100,
-          "us": 0,
-          "fund": 72,
-          "liquidity": 46
+          "rs": 91,
+          "us": 44,
+          "fund": 75,
+          "liquidity": 35
         },
         "stocks": []
       },
       {
         "rank": 4,
-        "ind": "生技醫療",
-        "score": 60,
-        "scores": {
-          "capital": 95,
-          "sentiment": 50,
-          "rs": 59,
-          "us": 17,
-          "fund": 100,
-          "liquidity": 53
-        },
-        "stocks": []
-      },
-      {
-        "rank": 5,
         "ind": "光學/被動元件",
-        "score": 56,
+        "score": 61,
         "scores": {
-          "capital": 86,
+          "capital": 82,
           "sentiment": 50,
-          "rs": 65,
-          "us": 21,
-          "fund": 44,
-          "liquidity": 57
+          "rs": 89,
+          "us": 24,
+          "fund": 40,
+          "liquidity": 42
         },
         "stocks": [
           {
             "code": "3406",
             "name": "玉晶光",
-            "price": 905.0,
-            "winRate": "69%",
+            "price": 995.0,
+            "winRate": "68%",
             "avgReturn": "+11.6%",
             "samples": 238,
             "tags": [],
-            "logic": "勝率 69%，平均報酬 +11.6%，穩定度 0%"
+            "logic": "勝率 68%，平均報酬 +11.6%，穩定度 0%"
           },
           {
             "code": "6209",
             "name": "今國光",
-            "price": 74.5,
-            "winRate": "67%",
-            "avgReturn": "+8.1%",
+            "price": 78.5,
+            "winRate": "66%",
+            "avgReturn": "+8.0%",
             "samples": 238,
             "tags": [],
-            "logic": "勝率 67%，平均報酬 +8.1%，穩定度 0%"
+            "logic": "勝率 66%，平均報酬 +8.0%，穩定度 0%"
           },
           {
             "code": "3006",
             "name": "晶技",
-            "price": 225.5,
+            "price": 235.0,
             "winRate": "60%",
-            "avgReturn": "+12.9%",
+            "avgReturn": "+12.8%",
             "samples": 238,
             "tags": [],
-            "logic": "勝率 60%，平均報酬 +12.9%，穩定度 0%"
+            "logic": "勝率 60%，平均報酬 +12.8%，穩定度 0%"
           }
         ]
+      },
+      {
+        "rank": 5,
+        "ind": "生技醫療",
+        "score": 54,
+        "scores": {
+          "capital": 91,
+          "sentiment": 50,
+          "rs": 43,
+          "us": 15,
+          "fund": 100,
+          "liquidity": 54
+        },
+        "stocks": []
       }
     ],
     "3m": [
       {
         "rank": 1,
         "ind": "航運",
-        "score": 83,
+        "score": 82,
         "scores": {
-          "capital": 100,
+          "capital": 94,
           "sentiment": 50,
-          "rs": 92,
-          "us": 90,
-          "fund": 74,
-          "liquidity": 48
+          "rs": 86,
+          "us": 100,
+          "fund": 75,
+          "liquidity": 53
         },
         "stocks": [
           {
             "code": "2637",
             "name": "慧洋-KY",
-            "price": 98.8,
+            "price": 97.3,
             "winRate": "94%",
             "avgReturn": "+13.4%",
             "samples": 298,
@@ -183,7 +183,7 @@
           {
             "code": "2617",
             "name": "台航",
-            "price": 30.15,
+            "price": 30.05,
             "winRate": "67%",
             "avgReturn": "+4.5%",
             "samples": 298,
@@ -193,32 +193,32 @@
           {
             "code": "2603",
             "name": "長榮",
-            "price": 255.5,
+            "price": 257.5,
             "winRate": "65%",
-            "avgReturn": "+6.2%",
+            "avgReturn": "+6.3%",
             "samples": 298,
             "tags": [],
-            "logic": "勝率 65%，平均報酬 +6.2%，穩定度 0%"
+            "logic": "勝率 65%，平均報酬 +6.3%，穩定度 0%"
           }
         ]
       },
       {
         "rank": 2,
         "ind": "金融",
-        "score": 79,
+        "score": 69,
         "scores": {
-          "capital": 96,
-          "sentiment": 50,
-          "rs": 97,
-          "us": 100,
+          "capital": 100,
+          "sentiment": 54,
+          "rs": 100,
+          "us": 40,
           "fund": 0,
-          "liquidity": 58
+          "liquidity": 56
         },
         "stocks": [
           {
             "code": "2890",
             "name": "永豐金",
-            "price": 42.1,
+            "price": 42.8,
             "winRate": "97%",
             "avgReturn": "+16.6%",
             "samples": 298,
@@ -228,17 +228,17 @@
           {
             "code": "2887",
             "name": "台新金",
-            "price": 39.45,
+            "price": 40.45,
             "winRate": "98%",
-            "avgReturn": "+25.1%",
+            "avgReturn": "+25.2%",
             "samples": 298,
             "tags": [],
-            "logic": "勝率 98%，平均報酬 +25.1%，穩定度 32%"
+            "logic": "勝率 98%，平均報酬 +25.2%，穩定度 32%"
           },
           {
             "code": "2891",
             "name": "中信金",
-            "price": 73.7,
+            "price": 74.7,
             "winRate": "93%",
             "avgReturn": "+13.4%",
             "samples": 298,
@@ -250,251 +250,251 @@
       {
         "rank": 3,
         "ind": "化工原物料",
-        "score": 62,
+        "score": 67,
         "scores": {
-          "capital": 75,
+          "capital": 74,
           "sentiment": 50,
-          "rs": 100,
-          "us": 0,
-          "fund": 72,
-          "liquidity": 46
+          "rs": 91,
+          "us": 44,
+          "fund": 75,
+          "liquidity": 35
         },
         "stocks": [
           {
             "code": "1326",
             "name": "台化",
-            "price": 71.5,
+            "price": 73.5,
             "winRate": "100%",
-            "avgReturn": "+26.2%",
+            "avgReturn": "+26.3%",
             "samples": 298,
             "tags": [],
-            "logic": "勝率 100%，平均報酬 +26.2%，穩定度 44%"
+            "logic": "勝率 100%，平均報酬 +26.3%，穩定度 44%"
           },
           {
             "code": "1303",
             "name": "南亞",
-            "price": 289.0,
+            "price": 313.0,
             "winRate": "100%",
-            "avgReturn": "+62.4%",
+            "avgReturn": "+62.5%",
             "samples": 298,
             "tags": [],
-            "logic": "勝率 100%，平均報酬 +62.4%，穩定度 40%"
+            "logic": "勝率 100%，平均報酬 +62.5%，穩定度 40%"
           },
           {
             "code": "1301",
             "name": "台塑",
-            "price": 69.9,
+            "price": 70.2,
             "winRate": "90%",
             "avgReturn": "+15.2%",
             "samples": 298,
             "tags": [],
-            "logic": "勝率 90%，平均報酬 +15.2%，穩定度 21%"
+            "logic": "勝率 90%，平均報酬 +15.2%，穩定度 22%"
           }
         ]
       },
       {
         "rank": 4,
-        "ind": "生技醫療",
-        "score": 60,
-        "scores": {
-          "capital": 95,
-          "sentiment": 50,
-          "rs": 59,
-          "us": 17,
-          "fund": 100,
-          "liquidity": 53
-        },
-        "stocks": []
-      },
-      {
-        "rank": 5,
         "ind": "光學/被動元件",
-        "score": 56,
+        "score": 61,
         "scores": {
-          "capital": 86,
+          "capital": 82,
           "sentiment": 50,
-          "rs": 65,
-          "us": 21,
-          "fund": 44,
-          "liquidity": 57
+          "rs": 89,
+          "us": 24,
+          "fund": 40,
+          "liquidity": 42
         },
         "stocks": [
           {
             "code": "3443",
             "name": "創意",
-            "price": 7170.0,
+            "price": 7885.0,
             "winRate": "96%",
-            "avgReturn": "+50.2%",
+            "avgReturn": "+50.4%",
             "samples": 298,
             "tags": [],
-            "logic": "勝率 96%，平均報酬 +50.2%，穩定度 35%"
+            "logic": "勝率 96%，平均報酬 +50.4%，穩定度 36%"
           },
           {
             "code": "3006",
             "name": "晶技",
-            "price": 225.5,
+            "price": 235.0,
             "winRate": "98%",
-            "avgReturn": "+46.3%",
+            "avgReturn": "+46.2%",
             "samples": 298,
             "tags": [],
-            "logic": "勝率 98%，平均報酬 +46.3%，穩定度 31%"
+            "logic": "勝率 98%，平均報酬 +46.2%，穩定度 31%"
           },
           {
             "code": "6209",
             "name": "今國光",
-            "price": 74.5,
+            "price": 78.5,
             "winRate": "79%",
-            "avgReturn": "+32.4%",
+            "avgReturn": "+32.3%",
             "samples": 298,
             "tags": [],
-            "logic": "勝率 79%，平均報酬 +32.4%，穩定度 15%"
+            "logic": "勝率 79%，平均報酬 +32.3%，穩定度 15%"
           }
         ]
+      },
+      {
+        "rank": 5,
+        "ind": "生技醫療",
+        "score": 54,
+        "scores": {
+          "capital": 91,
+          "sentiment": 50,
+          "rs": 43,
+          "us": 15,
+          "fund": 100,
+          "liquidity": 54
+        },
+        "stocks": []
       }
     ],
     "1y": [
       {
         "rank": 1,
         "ind": "航運",
-        "score": 83,
+        "score": 82,
         "scores": {
-          "capital": 100,
+          "capital": 94,
           "sentiment": 50,
-          "rs": 92,
-          "us": 90,
-          "fund": 74,
-          "liquidity": 48
+          "rs": 86,
+          "us": 100,
+          "fund": 75,
+          "liquidity": 53
         },
         "stocks": [
           {
             "code": "2603",
             "name": "長榮",
-            "price": 255.5,
+            "price": 257.5,
             "winRate": "67%",
-            "avgReturn": "+24.9%",
+            "avgReturn": "+25.0%",
             "samples": 1050,
             "tags": [],
-            "logic": "勝率 67%，平均報酬 +24.9%，穩定度 0%"
+            "logic": "勝率 67%，平均報酬 +25.0%，穩定度 0%"
           }
         ]
       },
       {
         "rank": 2,
         "ind": "金融",
-        "score": 79,
+        "score": 69,
         "scores": {
-          "capital": 96,
-          "sentiment": 50,
-          "rs": 97,
-          "us": 100,
+          "capital": 100,
+          "sentiment": 54,
+          "rs": 100,
+          "us": 40,
           "fund": 0,
-          "liquidity": 58
+          "liquidity": 56
         },
         "stocks": [
           {
             "code": "2892",
             "name": "第一金",
-            "price": 41.05,
+            "price": 42.15,
             "winRate": "97%",
             "avgReturn": "+13.0%",
             "samples": 1050,
             "tags": [],
-            "logic": "勝率 97%，平均報酬 +13.0%，穩定度 31%"
+            "logic": "勝率 97%，平均報酬 +13.0%，穩定度 30%"
           },
           {
             "code": "2890",
             "name": "永豐金",
-            "price": 42.1,
+            "price": 42.8,
             "winRate": "97%",
-            "avgReturn": "+29.7%",
+            "avgReturn": "+29.8%",
             "samples": 1050,
             "tags": [],
-            "logic": "勝率 97%，平均報酬 +29.7%，穩定度 23%"
+            "logic": "勝率 97%，平均報酬 +29.8%，穩定度 23%"
           },
           {
             "code": "2891",
             "name": "中信金",
-            "price": 73.7,
+            "price": 74.7,
             "winRate": "83%",
-            "avgReturn": "+30.5%",
+            "avgReturn": "+30.6%",
             "samples": 1050,
             "tags": [],
-            "logic": "勝率 83%，平均報酬 +30.5%，穩定度 25%"
+            "logic": "勝率 83%，平均報酬 +30.6%，穩定度 25%"
           }
         ]
       },
       {
         "rank": 3,
         "ind": "化工原物料",
-        "score": 62,
+        "score": 67,
         "scores": {
-          "capital": 75,
+          "capital": 74,
           "sentiment": 50,
-          "rs": 100,
-          "us": 0,
-          "fund": 72,
-          "liquidity": 46
+          "rs": 91,
+          "us": 44,
+          "fund": 75,
+          "liquidity": 35
         },
         "stocks": []
       },
       {
         "rank": 4,
-        "ind": "生技醫療",
-        "score": 60,
-        "scores": {
-          "capital": 95,
-          "sentiment": 50,
-          "rs": 59,
-          "us": 17,
-          "fund": 100,
-          "liquidity": 53
-        },
-        "stocks": []
-      },
-      {
-        "rank": 5,
         "ind": "光學/被動元件",
-        "score": 56,
+        "score": 61,
         "scores": {
-          "capital": 86,
+          "capital": 82,
           "sentiment": 50,
-          "rs": 65,
-          "us": 21,
-          "fund": 44,
-          "liquidity": 57
+          "rs": 89,
+          "us": 24,
+          "fund": 40,
+          "liquidity": 42
         },
         "stocks": [
           {
             "code": "2327",
             "name": "國巨",
-            "price": 416.5,
+            "price": 424.5,
             "winRate": "73%",
-            "avgReturn": "+70.1%",
+            "avgReturn": "+70.2%",
             "samples": 1050,
             "tags": [],
-            "logic": "勝率 73%，平均報酬 +70.1%，穩定度 0%"
+            "logic": "勝率 73%，平均報酬 +70.2%，穩定度 0%"
           },
           {
             "code": "3443",
             "name": "創意",
-            "price": 7170.0,
+            "price": 7885.0,
             "winRate": "73%",
-            "avgReturn": "+97.2%",
+            "avgReturn": "+97.7%",
             "samples": 1050,
             "tags": [],
-            "logic": "勝率 73%，平均報酬 +97.2%，穩定度 0%"
+            "logic": "勝率 73%，平均報酬 +97.7%，穩定度 0%"
           },
           {
             "code": "3008",
             "name": "大立光",
-            "price": 5065.0,
+            "price": 5325.0,
             "winRate": "70%",
-            "avgReturn": "+22.1%",
+            "avgReturn": "+22.3%",
             "samples": 1050,
             "tags": [],
-            "logic": "勝率 70%，平均報酬 +22.1%，穩定度 0%"
+            "logic": "勝率 70%，平均報酬 +22.3%，穩定度 0%"
           }
         ]
+      },
+      {
+        "rank": 5,
+        "ind": "生技醫療",
+        "score": 54,
+        "scores": {
+          "capital": 91,
+          "sentiment": 50,
+          "rs": 43,
+          "us": 15,
+          "fund": 100,
+          "liquidity": 54
+        },
+        "stocks": []
       }
     ]
   }
