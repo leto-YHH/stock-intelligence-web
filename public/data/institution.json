@@ -1,40 +1,28 @@
 {
-  "updatedAt": "2026-11-17",
+  "updatedAt": "2026-11-18",
   "buy": [
     {
-      "code": "2382",
-      "name": "廣達",
-      "ind": "科技硬體",
-      "foreign": "+144",
-      "trust": "+1,309",
-      "dealer": "+789",
-      "total": "+2,242",
-      "foreignRaw": 144,
-      "totalRaw": 2242
+      "code": "2637",
+      "name": "慧洋-KY",
+      "ind": "航運",
+      "foreign": "+360",
+      "trust": "+45",
+      "dealer": "+17",
+      "total": "+422",
+      "foreignRaw": 360,
+      "totalRaw": 422
     },
     {
       "code": "2379",
       "name": "瑞昱",
       "ind": "半導體",
-      "foreign": "+99",
-      "trust": "+57",
-      "dealer": "+38",
-      "total": "+194",
-      "foreignRaw": 99,
-      "totalRaw": 194
+      "foreign": "+60",
+      "trust": "+15",
+      "dealer": "+146",
+      "total": "+221",
+      "foreignRaw": 60,
+      "totalRaw": 221
     }
   ],
-  "sell": [
-    {
-      "code": "1303",
-      "name": "南亞",
-      "ind": "化工",
-      "foreign": "−4,364",
-      "trust": "−2,354",
-      "dealer": "−151",
-      "total": "−6,869",
-      "foreignRaw": -4364,
-      "totalRaw": -6869
-    }
-  ]
+  "sell": []
 }
