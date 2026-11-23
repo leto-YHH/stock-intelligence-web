@@ -1,16 +1,38 @@
 {
-  "updatedAt": "2026-11-19",
+  "updatedAt": "2026-11-23",
   "buy": [
     {
-      "code": "2382",
-      "name": "廣達",
+      "code": "2886",
+      "name": "兆豐金",
+      "ind": "金融",
+      "foreign": "+1,517",
+      "trust": "+17,467",
+      "dealer": "+2,226",
+      "total": "+21,210",
+      "foreignRaw": 1517,
+      "totalRaw": 21210
+    },
+    {
+      "code": "3231",
+      "name": "緯創",
       "ind": "科技硬體",
-      "foreign": "+1,400",
-      "trust": "+148",
-      "dealer": "+766",
-      "total": "+2,314",
-      "foreignRaw": 1400,
-      "totalRaw": 2314
+      "foreign": "+1,336",
+      "trust": "+335",
+      "dealer": "+1,018",
+      "total": "+2,689",
+      "foreignRaw": 1336,
+      "totalRaw": 2689
+    },
+    {
+      "code": "2637",
+      "name": "慧洋-KY",
+      "ind": "航運",
+      "foreign": "+62",
+      "trust": "+9",
+      "dealer": "+6",
+      "total": "+77",
+      "foreignRaw": 62,
+      "totalRaw": 77
     }
   ],
   "sell": [
@@ -18,12 +40,12 @@
       "code": "1303",
       "name": "南亞",
       "ind": "化工",
-      "foreign": "−6,894",
-      "trust": "−3,942",
-      "dealer": "−584",
-      "total": "−11,420",
-      "foreignRaw": -6894,
-      "totalRaw": -11420
+      "foreign": "−628",
+      "trust": "−538",
+      "dealer": "−437",
+      "total": "−1,603",
+      "foreignRaw": -628,
+      "totalRaw": -1603
     }
   ]
 }
